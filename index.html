@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>英文法・完全攻略バイブル｜JUKEN CAMP</title>
 <style>
 :root{
@@ -47,6 +48,8 @@ h2.ch{font-family:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif CJK 
 .pt h3{font-size:18px;line-height:1.5;margin:0 0 8px;font-weight:700;color:var(--ai)}
 .pt h3 .sub{font-size:12.5px;color:var(--sub);font-weight:500;margin-left:.5em}
 .pt p{margin:0 0 6px;font-size:14.5px}
+.pt.key .no{color:var(--shu)}
+.pt.key h3::before{content:"";color:var(--shu)}
 .pt ul{margin:4px 0 6px;padding-left:1.2em;font-size:14.5px}
 .pt li{margin-bottom:2px}
 
@@ -116,42 +119,42 @@ html{scroll-behavior:smooth}
   body{background:#fff;font-size:10.2pt;line-height:1.42}
   .wrap{max-width:none;padding:0}
   a{color:inherit;text-decoration:none;border:none}
-  h2.ch{font-size:14pt;margin:14px 0 4px;padding-bottom:4px;break-after:avoid}
+  h2.ch{font-size:14pt;margin:14px 0 4px;padding-bottom:4px;break-after:auto}
   .chlead{font-size:9.5pt;margin:0 0 10px}
   .pt{margin:0 0 10px;break-inside:auto}
   .pt .no{font-size:13pt;top:0}
-  .pt h3{font-size:12pt;margin:0 0 4px;break-after:avoid}
+  .pt h3{font-size:12pt;margin:0 0 4px;break-after:auto}
   .pt p{font-size:10pt;margin:0 0 3px}
   .pt ul{font-size:10pt;margin:2px 0 3px}
   .pt table{break-inside:auto}
-  .fm{padding:7px 10px;margin:0 0 6px;break-inside:avoid}
+  .fm{padding:7px 10px;margin:0 0 6px;break-inside:auto}
   .fm .form{font-size:11pt}
   .fm .yaku{font-size:10pt;margin-top:3px}
   .ng{font-size:9.5pt}
-  .ex{font-size:9.5pt;padding:5px 8px;margin:5px 0 3px;break-inside:avoid}
+  .ex{font-size:9.5pt;padding:5px 8px;margin:5px 0 3px;break-inside:auto}
   .ex .lbl{font-size:8.5pt}
-  .pt p.mini-ex{font-size:8.6pt!important;line-height:1.28;margin:1px 0 3px!important;break-inside:avoid}
+  .pt p.mini-ex{font-size:8.6pt!important;line-height:1.28;margin:1px 0 3px!important;break-inside:auto}
   .cover{padding-bottom:10px;margin-bottom:12px}
   .cover h1{font-size:19pt}
   .cover .eyebrow{font-size:9pt}
   .cover .lead{font-size:10pt}
-  nav.toc{padding:10px 12px;margin-bottom:14px;break-inside:avoid}
+  nav.toc{padding:10px 12px;margin-bottom:14px;break-inside:auto}
   .idxl{font-size:9.5pt;line-height:1.65}
   .idxg{font-size:9.5pt;margin:6px 0 2px}
-  .map{padding:11px 13px 5px;margin-bottom:12px;break-inside:avoid}
+  .map{padding:11px 13px 5px;margin-bottom:12px;break-inside:auto}
   .patterns{break-inside:auto}
   .map h3{font-size:13pt;margin-bottom:6px}
-  .map h4{font-size:10pt;margin:7px 0 2px;break-after:avoid}
+  .map h4{font-size:10pt;margin:7px 0 2px;break-after:auto}
   .map p{font-size:10pt}
   .patterns h4{margin:5px 0 1px}
   .patterns p{margin-bottom:3px}
   .patterns table.dense4 th,.patterns table.dense4 td{padding:1.6px 3.5px;line-height:1.25}
-  .rewrite-block{break-inside:avoid}
+  .rewrite-block{break-inside:auto}
   table{font-size:9pt;margin:4px 0}
   th,td{padding:3px 5px}
   th{background:#e6e6e6}
   td.h{background:#f1f1f1}
-  thead{display:table-header-group;break-after:avoid}
+  thead{display:table-header-group;break-after:auto}
   table.compact{font-size:8.25pt}
   table.compact th,table.compact td{padding:2.3px 4px;line-height:1.35}
   table.dense4{font-size:8.35pt}
@@ -228,951 +231,812 @@ table.fx4.time-preps th,table.fx4.time-preps td{width:25%}
 .sig::before{content:"見分け ";color:var(--shu);font-weight:700;font-size:11.5px;letter-spacing:.14em}
 .sig b{color:var(--ai)}
 .sig .en{font-weight:600}
-@media print{.sig{padding:5px 9px;margin:0 0 6px;font-size:9.5pt;break-inside:avoid;break-after:avoid}.sig::before{font-size:8.5pt}}
+@media print{.sig{padding:5px 9px;margin:0 0 6px;font-size:9.5pt;break-inside:auto;break-after:auto}.sig::before{font-size:8.5pt}}
 
 /* 小見出し（セクション内） */
 .pt h4{font-size:14.5px;color:var(--shu);margin:14px 0 5px;font-weight:700}
 .pt h4:first-of-type{margin-top:8px}
-@media print{.pt h4{font-size:10.5pt;margin:8px 0 3px;break-after:avoid}}
-</style><style>
-/* 今回の編集箇所だけに適用し、本文の書体・文字サイズは維持 */
-.pt h3 .sub{font-weight:400}
-table.fx2.been-gone th:first-child,table.fx2.been-gone td:first-child{width:32%}
-table.fx2.been-gone th:nth-child(2),table.fx2.been-gone td:nth-child(2){width:68%}
-@media print{.pt .fm{break-after:avoid}.pt tr{break-inside:avoid}.pt tr:has(th){break-after:avoid}}
-table.infinitive-pairs th:nth-child(odd),table.infinitive-pairs td:nth-child(odd){width:27%}
-table.infinitive-pairs th:nth-child(even),table.infinitive-pairs td:nth-child(even){width:23%}
-table.fx2.comparison-forms th:first-child,table.fx2.comparison-forms td:first-child{width:43%}
-table.fx2.comparison-forms th:nth-child(2),table.fx2.comparison-forms td:nth-child(2){width:57%}
+@media print{.pt h4{font-size:10.5pt;margin:8px 0 3px;break-after:auto}}
+</style><style>.print-num{display:none}@media print{tr,table,.pt table{break-inside:auto} .pt > h4{break-after:auto} .pt > h4 + table{break-before:auto} .pt h3 + .sig{break-before:auto} table.patterns5{break-inside:auto} .pt .no{display:none} .pt{padding-left:46px} .pt.key h3::before{content:none} .print-num{display:inline-block;width:46px;margin-left:-46px;font-size:12pt} #t24{break-inside:auto} .colophon{break-before:auto;position:static}}</style><style id="continuous-print-layout">
+/* 印刷：本文をページ下端まで流し、表は行単位で次ページへ続ける。 */
+.pt.key h3::before{content:none}
+@media print{
+  .pt, #t24, .map, .patterns, .rewrite-block,
+  table, .pt table, table.patterns5, .fm, .ex, .sig, .mini-ex {
+    break-inside:auto !important;
+    page-break-inside:auto !important;
+  }
+  p, li, td, th {orphans:1;widows:1}
+  tr {break-inside:auto;page-break-inside:auto}
+  thead {display:table-header-group;break-inside:auto;break-after:auto}
+  h3,h4 {break-after:auto}
+  .sig {break-after:auto}
+  .pt h3 + .sig {break-before:auto}
+  .pt > h4 + table {break-before:auto}
+  .print-num {font-weight:700}
+  @page {size:A4;margin:10mm 13mm}
+  .pt {margin-bottom:8px}
+  .fm {padding-top:6px;padding-bottom:6px}
+  th,td {padding-top:2.5px;padding-bottom:2.5px}
+}
+</style><style id="final-flow-v3">
+.pt h3::before,.pt h3::after{content:none!important}
+@media print {
+  .pt,.pt *, .rewrite-block, #t24, table,.fm,.sig,.ex {
+    break-before:auto!important;break-after:auto!important;
+    break-inside:auto!important;
+    page-break-before:auto!important;page-break-after:auto!important;
+    page-break-inside:auto!important;
+    orphans:1!important;widows:1!important;
+  }
+  tr {break-inside:avoid!important;page-break-inside:avoid!important}
+  thead {display:table-header-group;break-after:avoid!important}
+  th,td {padding-top:2.2px;padding-bottom:2.2px}
+}
+</style><style id="balanced-final-layout">
+/* 番号を見出しの本文に含め、旧アイコン用の固定幅・字下げを廃止。 */
+.pt {padding-left:0!important}
+.pt h3 {text-indent:0;margin-left:0}
+@media print {
+  .pt {padding-left:0!important}
+  .pt h3,.pt h4 {break-after:avoid!important;page-break-after:avoid!important}
+}
 </style></head>
 <body>
 <div class="wrap">
-
 <header class="cover">
-  <div class="eyebrow">JUKEN CAMP</div>
-  <h1>英文法・完全攻略バイブル</h1>
-  <p class="lead">公立高校入試対策・文法辞典　全24項目</p>
+<div class="eyebrow">JUKEN CAMP</div>
+<h1>英文法・完全攻略バイブル</h1>
+<p class="lead">県立高校入試対策・重要事項を絞った文法辞典　全24項目</p>
 </header>
-
 <nav class="toc">
-  <h2>もくじ</h2>
-  <p class="idxl">
-    <a href="#t1">1　be動詞</a><a href="#t2">2　一般動詞</a><a href="#t3">3　文型</a><a href="#t4">4　進行形</a><a href="#t5">5　未来</a><a href="#t6">6　命令文</a><a href="#t7">7　疑問詞</a><a href="#t8">8　There is［are］</a><a href="#t9">9　助動詞</a><a href="#t10">10　名詞・代名詞</a><a href="#t11">11　不定詞①</a><a href="#t12">12　不定詞②</a><a href="#t13">13　動名詞</a><a href="#t14">14　比較①</a><a href="#t15">15　比較②</a><a href="#t16">16　接続詞</a><a href="#t17">17　分詞</a><a href="#t18">18　現在完了①</a><a href="#t19">19　現在完了②</a><a href="#t20">20　受動態</a><a href="#t21">21　関係代名詞</a><a href="#t22">22　付加疑問・間接疑問</a><a href="#t23">23　前置詞</a><a href="#t24">24　仮定法過去</a>
-  </p>
+<h2>もくじ</h2>
+<p class="idxl">
+<a href="#t1">1　be動詞</a><a href="#t2">2　一般動詞</a><a href="#t3">3　文型</a><a href="#t4">4　進行形</a><a href="#t5">5　未来</a><a href="#t6">6　命令文</a><a href="#t7">7　疑問詞</a><a href="#t8">8　There is［are］</a><a href="#t9">9　助動詞</a><a href="#t10">10　名詞・代名詞</a><a href="#t11">11　不定詞①</a><a href="#t12">12　不定詞②</a><a href="#t13">13　動名詞</a><a href="#t14">14　比較①</a><a href="#t15">15　比較②</a><a href="#t16">16　接続詞</a><a href="#t17">17　分詞</a><a href="#t18">18　現在完了①</a><a href="#t19">19　現在完了②</a><a href="#t20">20　受動態</a><a href="#t21">21　関係代名詞</a><a href="#t22">22　付加疑問・間接疑問</a><a href="#t23">23　前置詞</a><a href="#t24">24　仮定法</a>
+</p>
 </nav>
-
-<div class="pt" id="t1"><span class="no">1</span>
-  <h3>be動詞<span class="sub">「〜です」「〜にいる・ある」</span></h3>
-  <div class="sig">be動詞が<b>文の中心</b>となり、主語の<b>正体・状態・場所</b>を表す文。</div>
-  <div class="fm">
-    <div class="form">主語 + <b>be動詞</b> + 〜.　（A＝B）</div>
-    <div class="yaku"><b>〜だ／〜だった</b></div>
-  </div>
-  <div class="fm">
-    <div class="form">主語 + <b>be動詞</b> + 場所　（存在）</div>
-    <div class="yaku"><b>（〜に）いる・ある／いた・あった</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I am happy.</span>（私は幸せです） / <span class="en">I am in Okinawa.</span>（私は沖縄にいます）</p>
-  <h4>使い分け</h4>
-  <table>
-    <tr><th>主語</th><th>現在</th><th>過去</th></tr>
-    <tr><td class="h"><span class="en">I</span></td><td><span class="en">am</span></td><td><span class="en">was</span></td></tr>
-    <tr><td class="h">I・you 以外の単数</td><td><span class="en">is</span></td><td><span class="en">was</span></td></tr>
-    <tr><td class="h"><span class="en">you</span> または複数</td><td><span class="en">are</span></td><td><span class="en">were</span></td></tr>
-  </table>
-  <h4>否定文・疑問文</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>作り方</th></tr>
-    <tr><td>主語 + <b>be動詞 + not</b> + 〜.</td><td>be動詞のうしろに <span class="en">not</span> を置く</td></tr>
-    <tr><td><b>Be動詞</b> + 主語 + 〜?</td><td>be動詞を主語の前に出す</td></tr>
-    <tr><td class="n2"><span class="en">Is he 〜?</span></td><td class="n2"><span class="en">Yes, he <b>is</b>. / No, he <b>isn't</b>.</span></td></tr>
-    <tr><td class="n2"><span class="en">Was he 〜?</span></td><td class="n2"><span class="en">Yes, he <b>was</b>. / No, he <b>wasn't</b>.</span></td></tr>
-  </table>
+<div class="pt" id="t1">
+<h3>1. be動詞</h3>
+<div class="sig">be動詞が<b>文の中心</b>となり、主語の<b>正体・状態・場所</b>を表す文。</div>
+<div class="fm">
+<div class="form">主語 + <b>be動詞</b> + 〜.　（A＝B）</div>
+<div class="yaku"><b>〜だ／〜だった</b></div>
 </div>
-
-<div class="pt" id="t2"><span class="no">2</span>
-  <h3>一般動詞<span class="sub">動作・習慣・状態を表す</span></h3>
-  <div class="sig">be動詞<b>以外</b>の動詞。否定文・疑問文で <span class="en"><b>do / does / did</b></span> を使う。</div>
-  <div class="fm">
-    <div class="form">主語 + <b>動詞</b> + 〜.</div>
-    <div class="yaku">〜<b>する</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I play soccer every day.</span>（私は毎日サッカーをします）</p>
-  <p>主語が<b>3人称単数で現在</b>の文のとき、動詞は語尾に <span class="en">(e)s</span> がつく<b>三単現形</b>になる。</p>
-  <h4>過去の肯定文</h4>
-  <div class="fm">
-    <div class="form">主語 + <b>動詞の過去形</b> + 〜.</div>
-    <div class="yaku">〜<b>した</b></div>
-  </div>
-  <p>規則動詞は語尾に <span class="en"><b>-ed</b></span>（<span class="en">play → played</span>）、不規則動詞は形が変わる（<span class="en">go → went</span>）。<b>過去形は主語によって変わらない。</b></p>
-  <h4>動詞のつづりの変え方</h4>
-  <table class="compact">
-    <thead><tr><th>作る形</th><th>ふつう</th><th>注意する語尾</th><th>例外・重要例</th></tr></thead>
-    <tbody>
-    <tr><td class="plain"><b>三単現形</b></td><td class="plain"><span class="en">-s</span><br><span class="en">play → plays</span></td><td class="plain"><span class="en">s / x / ch / sh / o</span> → <span class="en">-es</span><br>子音字＋<span class="en">y</span> → <span class="en">-ies</span></td><td class="plain"><span class="en">have → has</span><br><span class="en">do → does</span></td></tr>
-    <tr><td class="plain"><b>過去形</b></td><td class="plain"><span class="en">-ed</span><br><span class="en">play → played</span></td><td class="plain"><span class="en">e</span> → <span class="en">-d</span>／子音字＋<span class="en">y</span> → <span class="en">-ied</span><br>短母音＋子音字 → 子音字を重ねて<span class="en">-ed</span></td><td class="plain">不規則変化は1語ずつ覚える<br><span class="en">stop → stopped</span></td></tr>
-    <tr><td class="plain"><b>ing形</b></td><td class="plain"><span class="en">-ing</span><br><span class="en">play → playing</span></td><td class="plain">語尾の<span class="en">e</span>を取る／<span class="en">ie → y</span><br>短母音＋子音字 → 子音字を重ねる</td><td class="plain"><span class="en">make → making</span><br><span class="en">lie → lying / run → running</span></td></tr>
-    </tbody>
-  </table>
-  <p>子音字を重ねるのは、原則として<b>語末に強勢のある短母音＋子音字1字</b>のとき（<span class="en">stop → stopped</span>）。<span class="en">w / x / y</span> は重ねません。ing形では<b>発音しない e</b>を取り、<span class="en">see → seeing</span> の e は残します。</p>
-  <h4>否定文・疑問文</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>作り方</th></tr>
-    <tr><td>主語 + <b><span class="en">don't［doesn't / didn't］</span></b> + <b>動詞の原形</b> + 〜.</td><td>動詞の前に置き、動詞は<b>原形</b>にする</td></tr>
-    <tr><td><b><span class="en">Do［Does / Did］</span></b> + 主語 + <b>動詞の原形</b> + 〜?</td><td>主語の前に置き、動詞は<b>原形</b>にする</td></tr>
-  </table>
-  <p class="ng"><span class="en">Does he plays?</span> → <span class="en">Does he play?</span> / <span class="en">Did you went?</span> → <span class="en">Did you go?</span>（<span class="en">does / did</span> のうしろは原形）</p>
+<div class="fm">
+<div class="form">主語 + <b>be動詞</b> + 場所　（存在）</div>
+<div class="yaku"><b>（〜に）いる・ある／いた・あった</b></div>
 </div>
-
-<div class="pt patterns" id="t3"><span class="no">3</span>
-  <h3>文型<span class="sub">英語の語順を決める5つの型</span></h3>
-  <p><b>動詞と、そのうしろに続く語で文型が決まる。</b>第1文型から第5文型までの全体像を見て、特にSVC・SVOO・SVOCの動詞を覚える。</p>
-  <table class="compact patterns5">
-    <thead><tr><th>名称・記号</th><th>並び</th><th>見分け方</th><th>例文</th></tr></thead>
-    <tbody>
-    <tr><td class="plain"><b>第1文型　SV</b></td><td class="plain">主語＋動詞</td><td class="plain"><b>目的語なし（自動詞）</b></td><td class="plain"><span class="en">I run.</span></td></tr>
-    <tr><td class="plain"><b>第2文型　SVC</b></td><td class="plain">主語＋動詞＋補語</td><td class="plain"><b>主語＝補語</b></td><td class="plain"><span class="en">You are happy.</span>（<span class="en">You＝happy</span>）</td></tr>
-    <tr><td class="plain"><b>第3文型　SVO</b></td><td class="plain">主語＋動詞＋目的語</td><td class="plain"><b>目的語あり（他動詞）</b></td><td class="plain"><span class="en">I play tennis.</span>（<span class="en">I≠tennis</span>）</td></tr>
-    <tr><td class="plain"><b>第4文型　SVOO</b></td><td class="plain">主語＋動詞＋人＋もの</td><td class="plain"><b>目的語が2つ・人≠もの</b></td><td class="plain"><span class="en">I give him a book.</span>（<span class="en">him≠a book</span>）</td></tr>
-    <tr><td class="plain"><b>第5文型　SVOC</b></td><td class="plain">主語＋動詞＋目的語＋補語</td><td class="plain"><b>目的語＝補語</b></td><td class="plain"><span class="en">We call him Ken.</span>（<span class="en">him＝Ken</span>）</td></tr>
-    </tbody>
-  </table>
-  <p><span class="en"><b>S</b></span>＝主語、<span class="en"><b>V</b></span>＝動詞、<span class="en"><b>O</b></span>＝目的語（「何を・だれを［に］」に当たる語）、<span class="en"><b>C</b></span>＝補語。</p>
-  <table class="fx fx4 dense4 verb-types">
-    <tr><th>動詞の種類</th><th>目的語</th><th>代表例</th><th>文型の例</th></tr>
-    <tr><td><b>自動詞</b></td><td>とらない</td><td class="n2"><span class="en">go / come / arrive / live</span></td><td class="n2"><span class="en">He goes <b>to school</b>.</span> → SV<br>※<span class="en">to school</span> は前置詞句</td></tr>
-    <tr><td><b>他動詞</b></td><td>とる</td><td class="n2"><span class="en">like / use / visit / discuss</span></td><td class="n2"><span class="en">He visits <b>Kyoto</b>.</span> → SVO</td></tr>
-  </table>
-  <p class="ng"><span class="en">He visited to Kyoto.</span> → <span class="en">He visited Kyoto.</span> / <span class="en">We discussed about it.</span> → <span class="en">We discussed it.</span>（<span class="en">visit / discuss</span> は他動詞なので前置詞を置かない）</p>
-
-  <h4>第2文型 SVC　補語をとる動詞</h4>
-  <table class="fx fx4 dense4">
-    <tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>be</b></span> + 形容詞［名詞］</td><td>〜だ</td><td><span class="en"><b>become</b></span> + 形容詞［名詞］</td><td>〜になる</td></tr>
-    <tr><td><span class="en"><b>look</b></span> + 形容詞</td><td>〜に見える</td><td><span class="en"><b>seem</b></span> + 形容詞</td><td>〜のようだ</td></tr>
-    <tr><td><span class="en"><b>sound</b></span> + 形容詞</td><td>〜に聞こえる</td><td><span class="en"><b>feel</b></span> + 形容詞</td><td>〜と感じる</td></tr>
-    <tr><td><span class="en"><b>taste</b></span> + 形容詞</td><td>〜の味がする</td><td><span class="en"><b>smell</b></span> + 形容詞</td><td>〜のにおいがする</td></tr>
-    <tr><td><span class="en"><b>get</b></span> + 形容詞</td><td>〜になる</td><td><span class="en"><b>turn</b></span> + 形容詞</td><td>〜に変わる</td></tr>
-    <tr><td><span class="en"><b>keep</b></span> + 形容詞</td><td>〜のままでいる</td><td><span class="en"><b>stay</b></span> + 形容詞</td><td>〜のままでいる</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">You look happy.</span>（<span class="en">You＝happy</span>）</p>
-  <p class="ng"><span class="en">You look happily.</span> → <span class="en">You look happy.</span>（SVCの補語には副詞ではなく<b>形容詞</b>を置く）</p>
-
-  <h4>第4文型 SVOO　目的語を2つとる動詞</h4>
-  <table class="fx fx4 dense4">
-    <tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>give</b></span> + 人 + もの</td><td>人にものを与える</td><td><span class="en"><b>show</b></span> + 人 + もの</td><td>人にものを見せる</td></tr>
-    <tr><td><span class="en"><b>tell</b></span> + 人 + もの</td><td>人にものを言う</td><td><span class="en"><b>teach</b></span> + 人 + もの</td><td>人にものを教える</td></tr>
-    <tr><td><span class="en"><b>send</b></span> + 人 + もの</td><td>人にものを送る</td><td><span class="en"><b>bring</b></span> + 人 + もの</td><td>人にものを持ってくる</td></tr>
-    <tr><td><span class="en"><b>lend</b></span> + 人 + もの</td><td>人にものを貸す</td><td><span class="en"><b>pass</b></span> + 人 + もの</td><td>人にものを手渡す</td></tr>
-    <tr><td><span class="en"><b>write</b></span> + 人 + もの</td><td>人にものを書く</td><td><span class="en"><b>read</b></span> + 人 + もの</td><td>人に読んで聞かせる</td></tr>
-    <tr><td><span class="en"><b>buy</b></span> + 人 + もの</td><td>人にものを買う</td><td><span class="en"><b>make</b></span> + 人 + もの</td><td>人にものを作る</td></tr>
-    <tr><td><span class="en"><b>cook</b></span> + 人 + もの</td><td>人にものを料理する</td><td><span class="en"><b>get</b></span> + 人 + もの</td><td>人にものを取ってくる</td></tr>
-    <tr><td><span class="en"><b>find</b></span> + 人 + もの</td><td>人にものを見つける</td><td><span class="en"><b>choose</b></span> + 人 + もの</td><td>人にものを選ぶ</td></tr>
-    <tr><td><span class="en"><b>ask</b></span> + 人 + 質問</td><td>人に質問をする</td><td><span class="en"><b>offer</b></span> + 人 + もの</td><td>人にものを申し出る</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I gave him a book.</span>（私は彼に本をあげました）</p>
-  <div class="rewrite-block">
-    <p><b>SVOOの書きかえ：</b>動詞＋人＋もの ＝ 動詞＋もの＋<span class="en"><b>to［for］</b></span>＋人</p>
-    <p class="mini-ex"><span class="tag">例</span><span class="en">I gave him a book. ＝ I gave a book to him.</span></p>
-    <table class="fx fx2 dense4 svoo-preps">
-      <tr><th>前置詞</th><th>使う動詞</th></tr>
-      <tr><td><span class="en"><b>to</b></span></td><td class="n2"><span class="en">give / show / tell / teach / send / bring / lend / pass / write / read / offer</span></td></tr>
-      <tr><td><span class="en"><b>for</b></span></td><td class="n2"><span class="en">buy / make / cook / get / find / choose</span></td></tr>
-    </table>
-  </div>
-  <h4>SVOOの2つ目の目的語が語句・節になる形</h4>
-  <table class="fx fx2 dense4">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>show［teach］</b></span> + 人 + 疑問詞 + <span class="en"><b>to</b></span> + 動詞の原形</td><td>人に、どう［何を・どこで…］〜するかを示す［教える］</td></tr>
-    <tr><td><span class="en"><b>tell［show］</b></span> + 人 + <span class="en"><b>that</b></span> + 主語 + 動詞</td><td>人に、〜ということを伝える［示す］</td></tr>
-    <tr><td><span class="en"><b>tell［teach / show］</b></span> + 人 + 疑問詞 + 主語 + 動詞</td><td>人に、何を［どこで…］〜するかを伝える［教える／示す］</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">Please show me how to use it.</span>（使い方を私に示してください）</p>
-
-  <h4>第5文型 SVOC　目的語と補語をとる動詞</h4>
-  <table class="fx fx4 dense4">
-    <tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>call</b></span> + 目的語 + 補語</td><td>〜を…と呼ぶ</td><td><span class="en"><b>make</b></span> + 目的語 + 補語</td><td>〜を…にする</td></tr>
-    <tr><td><span class="en"><b>name</b></span> + 目的語 + 補語</td><td>〜を…と名づける</td><td><span class="en"><b>keep</b></span> + 目的語 + 補語</td><td>〜を…のままにする</td></tr>
-    <tr><td><span class="en"><b>find</b></span> + 目的語 + 補語</td><td>〜が…だとわかる</td><td><span class="en"><b>leave</b></span> + 目的語 + 補語</td><td>〜を…のまま残す</td></tr>
-    <tr><td><span class="en"><b>paint</b></span> + 目的語 + 色</td><td>〜を…色に塗る</td><td><span class="en"><b>help</b></span> + 目的語 + 動詞の原形</td><td>〜が…するのを手伝う</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">We call him Ken.</span>（私たちは彼をケンと呼びます）</p>
-  <p>補語が動詞の場合は、目的語との間に<b>「〜が…する」という主語・述語の関係</b>があります。<span class="en">help + 人 + 動詞の原形</span> は第12項の原形不定詞とつながります。</p>
-  <h4>SVOOとSVOCの見分け</h4>
-  <table class="fx fx4 dense4">
-    <tr><th>完成した文</th><th>関係</th><th>完成した文</th><th>関係</th></tr>
-    <tr><td><span class="en">I give <b>him</b> <b>a book</b>.</span></td><td class="n2"><span class="en">him ≠ a book</span> → <b>SVOO</b></td><td><span class="en">We call <b>him</b> <b>Ken</b>.</span></td><td class="n2"><span class="en">him ＝ Ken</span> → <b>SVOC</b></td></tr>
-  </table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I am happy.</span>（私は幸せです） / <span class="en">I am in Okinawa.</span>（私は沖縄にいます）</p>
+<h4>使い分け</h4>
+<table><thead><tr><th>主語</th><th>現在</th><th>過去</th></tr></thead>
+<tr><td class="h"><span class="en">I</span></td><td><span class="en">am</span></td><td><span class="en">was</span></td></tr>
+<tr><td class="h">I・you 以外の単数</td><td><span class="en">is</span></td><td><span class="en">was</span></td></tr>
+<tr><td class="h"><span class="en">you</span> または複数</td><td><span class="en">are</span></td><td><span class="en">were</span></td></tr>
+</table>
+<h4>否定文・疑問文</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>作り方</th></tr></thead>
+<tr><td>主語 + <b>be動詞 + not</b> + 〜.</td><td>be動詞のうしろに <span class="en">not</span> を置く</td></tr>
+<tr><td><b>Be動詞</b> + 主語 + 〜?</td><td>be動詞を主語の前に出す</td></tr>
+<tr><td class="n2"><span class="en">Is he 〜?</span></td><td class="n2"><span class="en">Yes, he <b>is</b>. / No, he <b>isn't</b>.</span></td></tr>
+<tr><td class="n2"><span class="en">Was he 〜?</span></td><td class="n2"><span class="en">Yes, he <b>was</b>. / No, he <b>wasn't</b>.</span></td></tr>
+</table>
 </div>
-
-<div class="pt" id="t4"><span class="no">4</span>
-  <h3>進行形<span class="sub">「している」動作の途中</span></h3>
-  <div class="sig"><span class="en"><b>be動詞 + 動詞のing形</b></span> の形。</div>
-  <div class="fm">
-    <div class="form"><b>am / is / are</b> + 動詞のing形　（現在進行形）</div>
-    <div class="yaku">（今）<b>〜しているところだ</b></div>
-  </div>
-  <div class="fm">
-    <div class="form"><b>was / were</b> + 動詞のing形　（過去進行形）</div>
-    <div class="yaku"><b>〜しているところだった</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I am studying English now.</span>（私は今、英語を勉強しています）</p>
-  <p><span class="en">be動詞 + -ing</span> の形だけでは進行形と決まらない：<span class="en">My hobby is playing soccer.</span> は「今している」ではなく<b>動名詞</b>（趣味は〜すること）。<b>実際にその動作をしている途中か</b>で見分ける。</p>
-  <h4>否定文・疑問文</h4>
-  <table class="fx fx2">
-    <thead><tr><th>形</th><th>作り方</th></tr></thead>
-    <tbody>
-    <tr><td>主語 + <b>be動詞 + not</b> + 動詞のing形 + 〜.</td><td>be動詞のうしろに <span class="en">not</span> を置く</td></tr>
-    <tr><td><b>Be動詞</b> + 主語 + 動詞のing形 + 〜?</td><td>be動詞を主語の前に出す</td></tr>
-    </tbody>
-  </table>
+<div class="pt" id="t2">
+<h3>2. 一般動詞</h3>
+<div class="sig">be動詞<b>以外</b>の動詞。否定文・疑問文で <span class="en"><b>do / does / did</b></span> を使う。</div>
+<div class="fm">
+<div class="form">主語 + <b>動詞</b> + 〜.</div>
+<div class="yaku">〜<b>する</b></div>
 </div>
-
-<div class="pt" id="t5"><span class="no">5</span>
-  <h3>未来<span class="sub">これからの予定・予測・意志</span></h3>
-  <div class="sig"><span class="en"><b>be going to</b></span> か <span class="en"><b>will</b></span> は未来の予定・予測などを表します。どちらも後ろは<b>動詞の原形</b>です。</div>
-  <div class="fm">
-    <div class="form"><b>be going to</b> + 動詞の原形</div>
-    <div class="yaku"><b>〜するつもりだ／〜しそうだ</b></div>
-  </div>
-  <div class="fm">
-    <div class="form"><b>will</b> + 動詞の原形</div>
-    <div class="yaku"><b>〜だろう／〜するつもりだ</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I am going to study tonight. / I will study tonight.</span></p>
-  <h4>否定文・疑問文</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>作り方</th></tr>
-    <tr><td>主語 + <b>be動詞 + not</b> + going to + 動詞の原形 + 〜.</td><td>be動詞のうしろに <span class="en">not</span> を置く</td></tr>
-    <tr><td><b>Be動詞</b> + 主語 + going to + 動詞の原形 + 〜?</td><td>be動詞を主語の前に出す</td></tr>
-    <tr><td>主語 + <b>will not</b> + 動詞の原形 + 〜.</td><td><span class="en">will</span> のうしろに <span class="en">not</span>。短縮形は <span class="en"><b>won't</b></span></td></tr>
-    <tr><td><b>Will</b> + 主語 + 動詞の原形 + 〜?</td><td><span class="en">will</span> を主語の前に出す</td></tr>
-  </table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I play soccer every day.</span>（私は毎日サッカーをします）</p>
+<p>主語が<b>3人称単数で現在</b>の文のとき、動詞は語尾に <span class="en">(e)s</span> がつく<b>三単現形</b>になる。</p>
+<h4>過去の肯定文</h4>
+<div class="fm">
+<div class="form">主語 + <b>動詞の過去形</b> + 〜.</div>
+<div class="yaku">〜<b>した</b></div>
 </div>
-
-<div class="pt" id="t6"><span class="no">6</span>
-  <h3>命令文<span class="sub">指示・禁止・呼びかけ</span></h3>
-  <div class="sig"><b>主語がなく、いきなり動詞の原形</b>で始まる文。</div>
-  <table class="fx fx2">
-    <tr><th>形</th><th>訳</th></tr>
-    <tr><td><b>動詞の原形</b> + 〜.</td><td>〜しなさい</td></tr>
-    <tr><td><b><span class="en">Please</span></b> + 動詞の原形 + 〜.<br>動詞の原形 + 〜<b><span class="en">, please</span></b>.</td><td>〜してください</td></tr>
-    <tr><td><b><span class="en">Don't</span></b> + 動詞の原形 + 〜.</td><td>〜してはいけません</td></tr>
-    <tr><td><b><span class="en">Let's</span></b> + 動詞の原形 + 〜.</td><td>〜しましょう</td></tr>
-    <tr><td><b><span class="en">Be</span></b> + 〜.</td><td>（be動詞の命令文）〜でいなさい</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">Open the door, please.</span>（ドアを開けてください）</p>
+<p>規則動詞は語尾に <span class="en"><b>-ed</b></span>（<span class="en">play → played</span>）、不規則動詞は形が変わる（<span class="en">go → went</span>）。<b>過去形は主語によって変わらない。</b></p>
+<h4>動詞のつづりの変え方</h4>
+<table class="compact">
+<thead><tr><th>作る形</th><th>ふつう</th><th>注意する語尾</th><th>例外・重要例</th></tr></thead>
+<tbody>
+<tr><td class="plain"><b>三単現形</b></td><td class="plain"><span class="en">-s</span><br/><span class="en">play → plays</span></td><td class="plain"><span class="en">s / x / ch / sh / o</span> → <span class="en">-es</span><br/>子音字＋<span class="en">y</span> → <span class="en">-ies</span></td><td class="plain"><span class="en">have → has</span><br/><span class="en">do → does</span></td></tr>
+<tr><td class="plain"><b>過去形</b></td><td class="plain"><span class="en">-ed</span><br/><span class="en">play → played</span></td><td class="plain"><span class="en">e</span> → <span class="en">-d</span>／子音字＋<span class="en">y</span> → <span class="en">-ied</span><br/>短母音＋子音字 → 子音字を重ねて<span class="en">-ed</span></td><td class="plain">不規則変化は1語ずつ覚える<br/><span class="en">stop → stopped</span></td></tr>
+<tr><td class="plain"><b>ing形</b></td><td class="plain"><span class="en">-ing</span><br/><span class="en">play → playing</span></td><td class="plain">語尾の<span class="en">e</span>を取る<br/>短母音＋子音字 → 子音字を重ねる</td><td class="plain"><span class="en">make → making<br/>run → running</span></td></tr>
+</tbody>
+</table>
+<h4>否定文・疑問文</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>作り方</th></tr></thead>
+<tr><td>主語 + <b><span class="en">don't［doesn't / didn't］</span></b> + <b>動詞の原形</b> + 〜.</td><td>動詞の前に置き、動詞は<b>原形</b>にする</td></tr>
+<tr><td><b><span class="en">Do［Does / Did］</span></b> + 主語 + <b>動詞の原形</b> + 〜?</td><td>主語の前に置き、動詞は<b>原形</b>にする</td></tr>
+</table>
+<p class="ng"><span class="en">Does he plays?</span> → <span class="en">Does he play?</span> / <span class="en">Did you went?</span> → <span class="en">Did you go?</span>（<span class="en">does / did</span> のうしろは原形）</p>
 </div>
-
-<div class="pt" id="t7"><span class="no">7</span>
-  <h3>疑問詞<span class="sub">知りたい情報をたずねる</span></h3>
-  <div class="sig">文の先頭が疑問詞。<b>Yes / No では答えない</b>。</div>
-  <table class="fx fx4">
-    <tr><th>疑問詞</th><th>意味</th><th>疑問詞</th><th>意味</th></tr>
-    <tr><td><span class="en">what</span></td><td>何</td><td><span class="en">where</span></td><td>どこ</td></tr>
-    <tr><td><span class="en">who</span></td><td>だれ</td><td><span class="en">when</span></td><td>いつ</td></tr>
-    <tr><td><span class="en">whose</span></td><td>だれの</td><td><span class="en">how</span></td><td>どのように</td></tr>
-    <tr><td><span class="en">which</span></td><td>どれ</td><td><span class="en">why</span></td><td>なぜ</td></tr>
-  </table>
-  <h4>疑問文の作り方</h4>
-  <table class="fx qmake">
-    <tr><th>条件</th><th>形</th><th>例文</th></tr>
-    <tr><td class="n2">be動詞の文</td><td><b>疑問詞</b> + be動詞 + 主語 + 〜?</td><td class="n2"><span class="en">Where is Ken?</span></td></tr>
-    <tr><td class="n2">一般動詞の文</td><td><b>疑問詞</b> + <span class="en">do［does / did］</span> + 主語 + <b>動詞の原形</b> + 〜?</td><td class="n2"><span class="en">What do you want?</span></td></tr>
-    <tr><td class="n2">疑問詞が主語</td><td><b>疑問詞</b> + <b>動詞</b> + 〜?</td><td class="n2"><span class="en">Who plays soccer?</span></td></tr>
-  </table>
-  <p><b>選択疑問文</b>：<span class="en">Do you want tea <b>or</b> coffee?</span> のように選択肢を <span class="en">or</span> で結ぶ。<span class="en">Yes / No</span> ではなく、選んだ方で答える。</p>
-  <h4>2語で使う疑問詞</h4>
-  <table class="fx fx4">
-    <tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>how many</b></span> + 複数名詞</td><td>いくつ（数）</td><td><span class="en"><b>how far</b></span></td><td>どのくらい（距離）</td></tr>
-    <tr><td><span class="en"><b>how much</b></span></td><td>いくら（値段・量）</td><td><span class="en"><b>how often</b></span></td><td>どのくらい（回数）</td></tr>
-    <tr><td><span class="en"><b>how long</b></span></td><td>どのくらい（期間・長さ）</td><td><span class="en"><b>how tall / high</b></span></td><td>どのくらい（高さ）</td></tr>
-    <tr><td><span class="en"><b>how old</b></span></td><td>何歳</td><td><span class="en"><b>what day</b></span></td><td>何曜日</td></tr>
-    <tr><td><span class="en"><b>what time</b></span></td><td>何時</td><td><span class="en"><b>what kind of</b></span></td><td>どんな種類の</td></tr>
-  </table>
-  <h4>感嘆文<span style="font-weight:400;font-size:11px">（なんて〜だ！）</span></h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>例</th></tr>
-    <tr><td><span class="en"><b>How</b></span> + 形容詞［副詞］ + <span class="en">主語 + 動詞</span>！</td><td class="n2"><span class="en">How interesting (it is)!</span></td></tr>
-    <tr><td><span class="en"><b>What</b></span> (a[an]) + 形容詞 + 名詞 + <span class="en">主語 + 動詞</span>！</td><td class="n2"><span class="en">What a big tree (it is)!</span></td></tr>
-  </table>
-  <p><b>うしろに名詞があるかないか</b>で見分ける──名詞があれば <span class="en">What</span>、なければ <span class="en">How</span>。<span class="en">主語 + 動詞</span> は<b>省略されることが多い</b>。</p>
+<div class="pt patterns" id="t3">
+<h3>3. 文型<span class="sub">5文型</span></h3>
+<p>動詞と、そのうしろに続く語で文型が決まる。5文型の全体像を見て、<b>SVC・SVOO・SVOCの代表的な形</b>を覚える。</p>
+<table class="compact patterns5">
+<thead><tr><th>名称・記号</th><th>並び</th><th>見分け方</th><th>例文</th></tr></thead>
+<tbody>
+<tr><td class="plain"><b>第1文型　SV</b></td><td class="plain">主語＋動詞</td><td class="plain"><b>目的語なし（自動詞）</b></td><td class="plain"><span class="en">I run.</span></td></tr>
+<tr><td class="plain"><b>第2文型　SVC</b></td><td class="plain">主語＋動詞＋補語</td><td class="plain"><b>主語＝補語</b></td><td class="plain"><span class="en">You are happy.</span>（<span class="en">You＝happy</span>）</td></tr>
+<tr><td class="plain"><b>第3文型　SVO</b></td><td class="plain">主語＋動詞＋目的語</td><td class="plain"><b>目的語あり（他動詞）</b></td><td class="plain"><span class="en">I play tennis.</span>（<span class="en">I≠tennis</span>）</td></tr>
+<tr><td class="plain"><b>第4文型　SVOO</b></td><td class="plain">主語＋動詞＋人＋もの</td><td class="plain"><b>目的語が2つ・人≠もの</b></td><td class="plain"><span class="en">I give him a book.</span>（<span class="en">him≠a book</span>）</td></tr>
+<tr><td class="plain"><b>第5文型　SVOC</b></td><td class="plain">主語＋動詞＋目的語＋補語</td><td class="plain"><b>目的語＝補語</b></td><td class="plain"><span class="en">We call him Ken.</span>（<span class="en">him＝Ken</span>）</td></tr>
+</tbody>
+</table>
+<p><span class="en"><b>S</b></span>＝主語、<span class="en"><b>V</b></span>＝動詞、<span class="en"><b>O</b></span>＝目的語（「何を・だれを［に］」に当たる語）、<span class="en"><b>C</b></span>＝補語。</p>
+<table class="fx fx4 dense4 verb-types"><thead><tr><th>動詞の種類</th><th>目的語</th><th>代表例</th><th>文型の例</th></tr></thead>
+<tr><td><b>自動詞</b></td><td>とらない</td><td class="n2"><span class="en">go / come / arrive / live</span></td><td class="n2"><span class="en">He goes <b>to school</b>.</span> → SV<br/>※<span class="en">to school</span> は前置詞句</td></tr>
+<tr><td><b>他動詞</b></td><td>とる</td><td class="n2"><span class="en">like / use / visit</span></td><td class="n2"><span class="en">He visits <b>Kyoto</b>.</span> → SVO</td></tr>
+</table>
+<p class="ng"><span class="en">He visited to Kyoto.</span> → <span class="en">He visited Kyoto.</span>（<span class="en">visit</span> は他動詞なので、目的語の前に <span class="en">to</span> を置かない）</p>
+<h4>第2文型 SVC　補語をとる動詞</h4>
+<table class="fx fx4 dense4"><thead><tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>be</b></span> + 形容詞［名詞］</td><td>〜だ</td><td><span class="en"><b>become</b></span> + 形容詞［名詞］</td><td>〜になる</td></tr>
+<tr><td><span class="en"><b>look</b></span> + 形容詞</td><td>〜に見える</td><td><span class="en"><b>sound</b></span> + 形容詞</td><td>〜に聞こえる</td></tr>
+<tr><td><span class="en"><b>feel</b></span> + 形容詞</td><td>〜と感じる</td><td><span class="en"><b>get</b></span> + 形容詞</td><td>〜になる</td></tr></table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">You look happy.</span>（<span class="en">You＝happy</span>）</p>
+<p class="ng"><span class="en">You look happily.</span> → <span class="en">You look happy.</span>（SVCの補語には副詞ではなく<b>形容詞</b>を置く）</p>
+<h4>第4文型 SVOO　目的語を2つとる動詞</h4>
+<table class="fx fx4 dense4"><thead><tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>give</b></span> + 人 + もの</td><td>人にものを与える</td><td><span class="en"><b>show</b></span> + 人 + もの</td><td>人にものを見せる</td></tr>
+<tr><td><span class="en"><b>tell</b></span> + 人 + もの</td><td>人にものを伝える</td><td><span class="en"><b>teach</b></span> + 人 + もの</td><td>人にものを教える</td></tr>
+<tr><td><span class="en"><b>send</b></span> + 人 + もの</td><td>人にものを送る</td><td><span class="en"><b>bring</b></span> + 人 + もの</td><td>人にものを持ってくる</td></tr>
+<tr><td><span class="en"><b>lend</b></span> + 人 + もの</td><td>人にものを貸す</td><td><span class="en"><b>ask</b></span> + 人 + 質問</td><td>人に質問をする</td></tr>
+<tr><td><span class="en"><b>buy</b></span> + 人 + もの</td><td>人にものを買う</td><td><span class="en"><b>make</b></span> + 人 + もの</td><td>人にものを作る</td></tr></table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I gave him a book.</span>（私は彼に本をあげました）</p>
+<div class="rewrite-block">
+<p><b>SVOOの書きかえ：</b>下の動詞は、動詞＋人＋もの ＝ 動詞＋もの＋<span class="en"><b>to［for］</b></span>＋人</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I gave him a book. ＝ I gave a book to him.</span></p>
+<table class="fx fx2 dense4 svoo-preps"><thead><tr><th>前置詞</th><th>使う動詞</th></tr></thead>
+<tr><td><span class="en"><b>to</b></span></td><td class="n2"><span class="en">give / show / tell / teach / send / bring / lend</span></td></tr>
+<tr><td><span class="en"><b>for</b></span></td><td class="n2"><span class="en">buy / make</span></td></tr>
+</table>
 </div>
-
-<div class="pt" id="t8"><span class="no">8</span>
-  <h3>There is［are］<span class="sub">「〜がある・いる」と存在を示す</span></h3>
-  <div class="sig">文頭が <span class="en"><b>There is / There are</b></span>。この <span class="en">there</span> は「そこに」と訳さない。</div>
-  <div class="fm">
-    <div class="form"><b>There is［are / was / were］</b> + 〜.</div>
-    <div class="yaku">（…に）<b>〜がある・いる［あった・いた］</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">There is a book on the desk.</span>（机の上に本が1冊あります）</p>
-  <h4>否定文・疑問文</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>作り方</th></tr>
-    <tr><td><span class="en">There</span> + <b>be動詞 + not</b> + 名詞 + 〜.<br><span class="en">There</span> + be動詞 + <b>no</b> + 名詞 + 〜.</td><td>be動詞のうしろに <span class="en">not</span>、または名詞の前に <span class="en">no</span></td></tr>
-    <tr><td><b>Be動詞</b> + <span class="en">there</span> + 名詞 + 〜?</td><td>be動詞を <span class="en">there</span> の前に出す</td></tr>
-    <tr><td><b><span class="en">How many</span></b> + 名詞の複数形 + <span class="en">are there</span> + 〜?</td><td>数をたずねる</td></tr>
-  </table>
-  <h4>いっしょに使う場所の前置詞</h4>
-  <table class="fx fx4">
-    <tr><th>前置詞</th><th>意味</th><th>前置詞</th><th>意味</th></tr>
-    <tr><td><span class="en">in</span></td><td>〜の中に</td><td><span class="en">under</span></td><td>〜の下に</td></tr>
-    <tr><td><span class="en">on</span></td><td>〜の上に</td><td><span class="en">near</span></td><td>〜の近くに</td></tr>
-    <tr><td><span class="en">at</span></td><td>〜に</td><td><span class="en">by</span></td><td>〜のそばに</td></tr>
-  </table>
+<h4>SVOOの2つ目の目的語が語句・節になる形</h4>
+<table class="fx fx2 dense4"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>show</b></span> + 人 + <span class="en"><b>how to</b></span> + 動詞の原形</td><td>人に〜のしかたを示す</td></tr>
+<tr><td><span class="en"><b>tell</b></span> + 人 + <span class="en"><b>that</b></span> + 主語 + 動詞</td><td>人に〜ということを伝える</td></tr>
+<tr><td><span class="en"><b>tell</b></span> + 人 + 疑問詞 + 主語 + 動詞</td><td>人に、何を［どこで…］〜するかを伝える</td></tr></table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">Please show me how to use it.</span>（使い方を私に示してください）</p>
+<h4>第5文型 SVOC　目的語と補語をとる動詞</h4>
+<table class="fx fx4 dense4"><thead><tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>call</b></span> + 目的語 + 補語</td><td>〜を…と呼ぶ</td><td><span class="en"><b>make</b></span> + 目的語 + 補語</td><td>〜を…にする</td></tr>
+<tr><td><span class="en"><b>name</b></span> + 目的語 + 補語</td><td>〜を…と名づける</td><td><span class="en"><b>keep</b></span> + 目的語 + 補語</td><td>〜を…のままにする</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">We call him Ken.</span>（私たちは彼をケンと呼びます）</p>
+<h4>SVOOとSVOCの見分け</h4>
+<table class="fx fx4 dense4"><thead><tr><th>完成した文</th><th>関係</th><th>完成した文</th><th>関係</th></tr></thead>
+<tr><td><span class="en">I give <b>him</b> <b>a book</b>.</span></td><td class="n2"><span class="en">him ≠ a book</span> → <b>SVOO</b></td><td><span class="en">We call <b>him</b> <b>Ken</b>.</span></td><td class="n2"><span class="en">him ＝ Ken</span> → <b>SVOC</b></td></tr>
+</table>
 </div>
-
-<div class="pt" id="t9"><span class="no">9</span>
-  <h3>助動詞<span class="sub">できる・すべきなどの意味を足す</span></h3>
-  <div class="sig">動詞の前に助動詞があり、そのうしろが<b>動詞の原形</b>。</div>
-  <div class="fm">
-    <div class="form">主語 + <b>助動詞</b> + <b>動詞の原形</b> + 〜.</div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I can swim.</span>（私は泳ぐことができます）</p>
-  <table class="fx fx2 modal-list">
-    <thead><tr><th>助動詞</th><th>意味</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>can</b></span></td><td>〜することができる</td></tr>
-    <tr><td><span class="en"><b>must</b></span></td><td>〜しなければならない／〜にちがいない</td></tr>
-    <tr><td><span class="en"><b>may</b></span></td><td>〜してもよい／〜かもしれない</td></tr>
-    <tr><td><span class="en"><b>should</b></span></td><td>〜するべきだ</td></tr>
-    <tr><td><span class="en"><b>will</b></span></td><td>〜だろう／〜するつもりだ</td></tr>
-    <tr><td><span class="en"><b>shall</b></span></td><td>〜しましょうか（<span class="en">Shall I / Shall we</span>）</td></tr>
-    <tr><td><span class="en"><b>could</b></span></td><td>〜することができた（<span class="en">can</span> の過去形）</td></tr>
-    <tr><td><span class="en"><b>would</b></span></td><td><span class="en">will</span> の過去形・仮定法で使う。<span class="en">Would you 〜?</span> で〜してくださいますか（ていねい）</td></tr>
-    </tbody>
-  </table>
-  <h4>助動詞のように使う表現<span style="font-weight:400;font-size:11px">（うしろは動詞の原形）</span></h4>
-  <table class="fx fx2">
-    <tr><th>表現</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>have［has］to</b></span> + 動詞の原形</td><td>〜しなければならない</td></tr>
-    <tr><td><span class="en"><b>be able to</b></span> + 動詞の原形</td><td>〜することができる（<span class="en">can</span> の書きかえ）</td></tr>
-  </table>
-  <h4>短縮形</h4>
-  <table class="fx fx4">
-    <tr><th>短縮形</th><th>もとの形</th><th>短縮形</th><th>もとの形</th></tr>
-    <tr><td><span class="en">can't</span></td><td class="n2"><span class="en">cannot</span></td><td><span class="en">won't</span></td><td class="n2"><span class="en">will not</span></td></tr>
-    <tr><td><span class="en">mustn't</span></td><td class="n2"><span class="en">must not</span></td><td><span class="en">shouldn't</span></td><td class="n2"><span class="en">should not</span></td></tr>
-  </table>
-  <p><b>助動詞は2つ並べられない。</b><span class="en">I will can swim.</span> ではなく <span class="en">I will <b>be able to</b> swim.</span> とする。<span class="en">must</span> に過去形はないので、過去なら <span class="en">I <b>had to</b> study yesterday.</span> のように表す。</p>
-  <h4>否定文・疑問文</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>作り方</th></tr>
-    <tr><td>主語 + <b>助動詞 + not</b> + 動詞の原形 + 〜.</td><td>助動詞のうしろに <span class="en">not</span> を置く</td></tr>
-    <tr><td><b>助動詞</b> + 主語 + 動詞の原形 + 〜?</td><td>主語の前に助動詞を出す</td></tr>
-  </table>
-  <h4><span class="en">must</span> と <span class="en">have to</span> の否定文</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><b><span class="en">must not</span></b> + 動詞の原形</td><td><b>〜してはいけない</b></td></tr>
-    <tr><td><b><span class="en">don't［doesn't］have to</span></b> + 動詞の原形</td><td><b>〜しなくてよい</b></td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">You must not run here.</span>（ここで走ってはいけません） / <span class="en">You do not have to come.</span>（来る必要はありません）</p>
-  <h4>助動詞を使った表現</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>Can［May］I</b></span> + 動詞の原形 + 〜?</td><td>〜してもいいですか</td></tr>
-    <tr><td><span class="en"><b>Can［Will］you</b></span> + 動詞の原形 + 〜?</td><td>〜してくれますか</td></tr>
-    <tr><td><span class="en"><b>Could［Would］you</b></span> + 動詞の原形 + 〜?</td><td>〜してくださいますか</td></tr>
-    <tr><td><span class="en"><b>Would you like to</b></span> + 動詞の原形 + 〜?</td><td>〜するのはいかがですか</td></tr>
-    <tr><td><span class="en"><b>Shall I</b></span> + 動詞の原形 + 〜?</td><td>（わたしが）〜しましょうか</td></tr>
-    <tr><td><span class="en"><b>Shall we</b></span> + 動詞の原形 + 〜?</td><td>（いっしょに）〜しましょうか</td></tr>
-  </table>
+<div class="pt" id="t4">
+<h3>4. 進行形</h3>
+<div class="sig"><span class="en"><b>be動詞 + 動詞のing形</b></span> の形。</div>
+<div class="fm">
+<div class="form"><b>am / is / are</b> + 動詞のing形　（現在進行形）</div>
+<div class="yaku">（今）<b>〜しているところだ</b></div>
 </div>
-
-<div class="pt" id="t10"><span class="no">10</span>
-  <h3>名詞・代名詞<span class="sub">人・物の名前とその代わり</span></h3>
-  <h4>名詞の種類</h4>
-  <table class="fx fx2 noun-types">
-    <tr><th>種類</th><th>中身</th></tr>
-    <tr><td class="n2"><b>数えられる名詞</b><br>（複数形がある）</td><td class="n2">普通名詞（<span class="en">pen, brother</span> など）／大部分の集合名詞（<span class="en">family</span> など）</td></tr>
-    <tr><td class="n2"><b>数えられない名詞</b><br>（通常、複数形にしない）</td><td class="n2">固有名詞（<span class="en">Japan</span> など。通常 a/an をつけない）／物質名詞（<span class="en">water</span> など）／抽象名詞（<span class="en">love</span> など）</td></tr>
-  </table>
-  <h4>冠詞</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>a／an</b></span> + 数えられる名詞の単数</td><td>（不特定の）<b>1つの</b>〜</td></tr>
-    <tr><td><span class="en"><b>the</b></span> + 名詞</td><td>（すでに話に出た・<b>特定の</b>）その〜</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I have a pen. The pen is blue.</span>（私はペンを1本持っています。そのペンは青いです）</p>
-  <p><span class="en">a</span> は子音の発音、<span class="en">an</span> は母音の発音で始まる語の前。</p>
-  <h4>複数形の作り方</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>作り方</th></tr>
-    <tr><td class="n2">ふつうの語</td><td class="n2">語尾に <b>-s</b>（<span class="en">book – books</span>）</td></tr>
-    <tr><td class="n2">s / x / ch / sh で終わる語</td><td class="n2">語尾に <b>-es</b>（<span class="en">box – boxes</span>）</td></tr>
-    <tr><td class="n2">子音字＋<span class="en">y</span> で終わる語</td><td class="n2"><span class="en">y</span> を <b>i</b> にかえて <b>-es</b>（<span class="en">city – cities</span>）</td></tr>
-    <tr><td class="n2">不規則変化</td><td class="n2"><span class="en">man – men / child – children / foot – feet</span></td></tr>
-  </table>
-  <p><span class="en">o</span> で終わる名詞：<span class="en">tomato → tomatoes</span> に対し、<span class="en">photo → photos / piano → pianos</span> は <span class="en">-s</span> だけです。</p>
-  <h4>人称代名詞</h4>
-  <table class="grid5">
-    <tr><th></th><th>主格<br>〜は</th><th>所有格<br>〜の</th><th>目的格<br>〜を・に</th><th>所有代名詞<br>〜のもの</th></tr>
-    <tr><td class="h">わたし</td><td><span class="en">I</span></td><td><span class="en">my</span></td><td><span class="en">me</span></td><td><span class="en">mine</span></td></tr>
-    <tr><td class="h">あなた</td><td><span class="en">you</span></td><td><span class="en">your</span></td><td><span class="en">you</span></td><td><span class="en">yours</span></td></tr>
-    <tr><td class="h">彼</td><td><span class="en">he</span></td><td><span class="en">his</span></td><td><span class="en">him</span></td><td><span class="en">his</span></td></tr>
-    <tr><td class="h">彼女</td><td><span class="en">she</span></td><td><span class="en">her</span></td><td><span class="en">her</span></td><td><span class="en">hers</span></td></tr>
-    <tr><td class="h">それ</td><td><span class="en">it</span></td><td><span class="en">its</span></td><td><span class="en">it</span></td><td>—</td></tr>
-    <tr><td class="h">わたしたち</td><td><span class="en">we</span></td><td><span class="en">our</span></td><td><span class="en">us</span></td><td><span class="en">ours</span></td></tr>
-    <tr><td class="h">あなたたち</td><td><span class="en">you</span></td><td><span class="en">your</span></td><td><span class="en">you</span></td><td><span class="en">yours</span></td></tr>
-    <tr><td class="h">彼ら・それら</td><td><span class="en">they</span></td><td><span class="en">their</span></td><td><span class="en">them</span></td><td><span class="en">theirs</span></td></tr>
-  </table>
-  <p><b>文の中の働きで選びます。</b>主語 → 主格／動詞・前置詞の目的語 → 目的格／名詞の前で持ち主を示す → 所有格。「〜のもの」と名詞の代わりをする → 所有代名詞です。</p>
-  <h4>指示代名詞</h4>
-  <table class="fx fx3">
-    <tr><th>近い</th><th>遠い</th><th>使うbe動詞</th></tr>
-    <tr><td><span class="en"><b>this</b></span>（これ・この）</td><td><span class="en"><b>that</b></span>（あれ・あの）</td><td class="n2"><span class="en">is / was</span></td></tr>
-    <tr><td><span class="en"><b>these</b></span>（これら）</td><td><span class="en"><b>those</b></span>（あれら）</td><td class="n2"><span class="en">are / were</span></td></tr>
-  </table>
-  <p><span class="en">Is this your pen? — Yes, <b>it</b> is.</span> のように、答えでは <span class="en">this</span> ではなく <span class="en">it</span> で受ける。</p>
-  <h4>再帰代名詞（〜自身）</h4>
-  <table class="fx fx4 reflexive">
-    <tr><th>形</th><th></th><th>形</th><th></th></tr>
-    <tr><td><span class="en">myself / yourself</span></td><td class="n2">わたし自身／あなた自身</td><td><span class="en">ourselves</span></td><td class="n2">わたしたち自身</td></tr>
-    <tr><td><span class="en">himself / herself / itself</span></td><td class="n2">彼／彼女／それ自身</td><td><span class="en">themselves</span></td><td class="n2">彼ら自身</td></tr>
-  </table>
-  <p><span class="en"><b>yourselves</b></span>＝あなたたち自身。<span class="en">yourself</span>（1人）と区別します。</p>
-  <h4>数えられない名詞の量を表す語句</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en">a <b>cup of</b> 〜</span></td><td>カップ1杯の</td></tr>
-    <tr><td><span class="en">a <b>glass of</b> 〜</span></td><td>コップ1杯の</td></tr>
-    <tr><td><span class="en">a <b>piece of</b> 〜</span></td><td>1枚・1切れの</td></tr>
-  </table>
-  <p><span class="en">cup / glass / piece of</span> は<b>主に</b>数えられない名詞の量・個数を表すときに使う（<span class="en">a cup of strawberries</span> のように数えられる名詞に使うこともある）。</p>
-  <h4>数・量を表す語</h4>
-  <table class="fx fx4">
-    <tr><th>形</th><th>使う名詞</th><th>形</th><th>使う名詞</th></tr>
-    <tr><td><span class="en"><b>many</b></span></td><td>複数形</td><td><span class="en"><b>much</b></span></td><td>数えられない名詞</td></tr>
-    <tr><td><span class="en"><b>(a) few</b></span></td><td>複数形</td><td><span class="en"><b>(a) little</b></span></td><td>数えられない名詞</td></tr>
-    <tr><td><span class="en"><b>a lot of</b></span></td><td>どちらも</td><td><span class="en"><b>some / any</b></span></td><td>どちらも</td></tr>
-  </table>
-  <p><span class="en"><b>few / little</b></span>＝ほとんどない、<span class="en"><b>a few / a little</b></span>＝少しある。<span class="en">a</span> の有無で意味が変わる。</p>
+<div class="fm">
+<div class="form"><b>was / were</b> + 動詞のing形　（過去進行形）</div>
+<div class="yaku"><b>〜しているところだった</b></div>
 </div>
-
-<div class="pt" id="t11"><span class="no">11</span>
-  <h3>不定詞①<span class="sub">to + 原形を3つの働きで使う</span></h3>
-  <div class="sig"><span class="en"><b>to + 動詞の原形</b></span> のかたまり。文の中での働きにより、3つの用法に分かれます。</div>
-  <div class="fm">
-    <div class="form">① 名詞的用法</div>
-    <div class="yaku"><b>〜すること</b></div>
-  </div>
-  <h4>よく使う表現（下の to の後ろに動詞の原形）</h4>
-  <table class="fx infinitive-pairs">
-    <thead><tr><th>表現</th><th>意味</th><th>表現</th><th>意味</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>want to</b></span></td><td>〜したい</td><td><span class="en"><b>hope to</b></span></td><td>〜したいと思う</td></tr>
-    <tr><td><span class="en"><b>decide to</b></span></td><td>〜することに決める</td><td><span class="en"><b>plan to</b></span></td><td>〜する予定である</td></tr>
-    <tr><td><span class="en"><b>need to</b></span></td><td>〜する必要がある</td><td><span class="en"><b>try to</b></span></td><td>〜しようとする</td></tr>
-    <tr><td><span class="en"><b>promise to</b></span></td><td>〜すると約束する</td><td><span class="en"><b>learn to</b></span></td><td>〜できるようになる</td></tr>
-    <tr><td><span class="en"><b>begin［start］to</b></span></td><td>〜し始める</td><td><span class="en"><b>would like to</b></span></td><td>〜したい（ていねい）</td></tr>
-    <tr><td><span class="en"><b>remember to</b></span></td><td>忘れずに〜する</td><td><span class="en"><b>forget to</b></span></td><td>〜するのを忘れる</td></tr>
-    </tbody>
-  </table>
-  <p>名詞と同様に、動詞の目的語・文の主語・補語になります。上の表は、動詞の後ろに続ける頻出表現です。</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I want to play soccer.</span>（私はサッカーをしたい）</p>
-  <div class="fm">
-    <div class="form">② 形容詞的用法　<b>名詞 + to + 動詞の原形</b></div>
-    <div class="yaku"><b>〜する（ための）／〜すべき</b></div>
-  </div>
-  <h4>よく使う表現</h4>
-  <table class="fx infinitive-pairs">
-    <thead><tr><th>表現</th><th>意味</th><th>表現</th><th>意味</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>something to eat</b></span></td><td>何か食べるもの</td><td><span class="en"><b>something to drink</b></span></td><td>何か飲むもの</td></tr>
-    <tr><td><span class="en"><b>something cold to drink</b></span></td><td>何か冷たい飲み物</td><td><span class="en"><b>nothing to do</b></span></td><td>することが何もない</td></tr>
-    <tr><td><span class="en"><b>homework to do</b></span></td><td>するべき宿題</td><td><span class="en"><b>a book to read</b></span></td><td>読むための本</td></tr>
-    <tr><td><span class="en"><b>time to study</b></span></td><td>勉強する時間</td><td><span class="en"><b>a place to visit</b></span></td><td>訪れる場所</td></tr>
-    <tr><td><span class="en"><b>a friend to talk with</b></span></td><td>話し相手になる友達</td><td><span class="en"><b>a chair to sit on</b></span></td><td>座るためのいす</td></tr>
-    </tbody>
-  </table>
-  <p>名詞や代名詞をうしろから説明し、「どんなもの・どんな時間・どんな人か」を表します。</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I have homework to do.</span>（私にはするべき宿題があります）</p>
-  <p><span class="en">something cold to drink</span> のように、形容詞も <span class="en">something</span> の後ろに置きます。<span class="en">talk with a friend / sit on a chair</span> の関係なので、<span class="en">a friend to talk <b>with</b> / a chair to sit <b>on</b></span> の前置詞は残します。</p>
-  <div class="fm">
-    <div class="form">③ 副詞的用法</div>
-    <div class="yaku"><b>〜するために</b>（目的）／<b>〜して</b>（感情の原因）など</div>
-  </div>
-  <h4>よく使う表現（表中の do は動詞の原形）</h4>
-  <table class="fx fx2">
-    <thead><tr><th>表現</th><th>意味</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>to do / in order to do</b></span></td><td>〜するために（動作の目的）</td></tr>
-    <tr><td><span class="en">be <b>glad［happy］to do</b></span></td><td>〜してうれしい</td></tr>
-    <tr><td><span class="en">be <b>sad to do</b></span></td><td>〜して悲しい</td></tr>
-    <tr><td><span class="en">be <b>sorry to do</b></span></td><td>〜して残念だ・申し訳ない</td></tr>
-    <tr><td><span class="en">be <b>surprised to do</b></span></td><td>〜して驚く</td></tr>
-    <tr><td><span class="en"><b>too</b></span> + 形容詞・副詞 + <span class="en"><b>to do</b></span></td><td>〜すぎて…できない</td></tr>
-    <tr><td>形容詞・副詞 + <span class="en"><b>enough to do</b></span></td><td>…できるほど十分に〜</td></tr>
-    </tbody>
-  </table>
-  <p>動詞・形容詞などに説明を加えます。「何のために？」なら目的、「なぜその気持ちに？」なら感情の原因です。<span class="en">too / enough</span> の形では程度を表します。</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I went to the park to play soccer.</span>（サッカーをするために公園へ行きました）</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I am glad to see you.</span>（あなたに会えてうれしいです）</p>
-  <p>訳に「ため」があっても、<span class="en">a book to read</span> は「本」を説明し、<span class="en">went to the park to play soccer</span> は「行った目的」を説明します。<b>何を説明しているか</b>で見分けます。</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I am studying English now.</span>（私は今、英語を勉強しています）</p>
+<p><span class="en">be動詞 + -ing</span> の形だけでは進行形と決まらない：<span class="en">My hobby is playing soccer.</span> は「今している」ではなく<b>動名詞</b>（趣味は〜すること）。<b>実際にその動作をしている途中か</b>で見分ける。</p>
+<h4>否定文・疑問文</h4>
+<table class="fx fx2">
+<thead><tr><th>形</th><th>作り方</th></tr></thead>
+<tbody>
+<tr><td>主語 + <b>be動詞 + not</b> + 動詞のing形 + 〜.</td><td>be動詞のうしろに <span class="en">not</span> を置く</td></tr>
+<tr><td><b>Be動詞</b> + 主語 + 動詞のing形 + 〜?</td><td>be動詞を主語の前に出す</td></tr>
+</tbody>
+</table>
 </div>
-
-<div class="pt" id="t12"><span class="no">12</span>
-  <h3>不定詞②<span class="sub">疑問詞や人と組み合わせる形</span></h3>
-  <h4>疑問詞 + to + 動詞の原形</h4>
-  <p>かたまり全体が名詞の働きをします。下の例では <span class="en">know</span> の目的語と捉えます。</p>
-  <table class="fx fx2">
-    <thead><tr><th>形</th><th>意味</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>how to</b></span> + 動詞の原形</td><td>〜のしかた、どう〜するか</td></tr>
-    <tr><td><span class="en"><b>what to</b></span> + 動詞の原形</td><td>何を〜したらよいか</td></tr>
-    <tr><td><span class="en"><b>where to</b></span> + 動詞の原形</td><td>どこで［へ／に］〜したらよいか</td></tr>
-    <tr><td><span class="en"><b>when to</b></span> + 動詞の原形</td><td>いつ〜したらよいか</td></tr>
-    <tr><td><span class="en"><b>which（+ 名詞）to</b></span> + 動詞の原形</td><td>どれを［どの…を］〜したらよいか</td></tr>
-    </tbody>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I know how to use this computer.</span>（私はこのコンピューターの使い方を知っています）</p>
-  <h4>動詞 + 人 + to + 動詞の原形</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>tell</b></span> + 人 + <span class="en">to</span> + 動詞の原形</td><td>（人）に〜するように言う</td></tr>
-    <tr><td><span class="en"><b>ask</b></span> + 人 + <span class="en">to</span> + 動詞の原形</td><td>（人）に〜するように頼む</td></tr>
-    <tr><td><span class="en"><b>want</b></span> + 人 + <span class="en">to</span> + 動詞の原形</td><td>（人）に〜してもらいたい</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">My mother told me to clean my room.</span>（母は私に部屋を掃除するように言いました）</p>
-  <div>
-  <h4>原形不定詞：make・let・help</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>make</b></span> + 人 + 動詞の原形</td><td>（人）に〜させる（強制）</td></tr>
-    <tr><td><span class="en"><b>let</b></span> + 人 + 動詞の原形</td><td>（人）に〜させる（許可）</td></tr>
-    <tr><td><span class="en"><b>help</b></span> + 人 +（<span class="en">to</span>）動詞の原形</td><td>（人）が〜するのを手伝う</td></tr>
-  </table>
-  <p>原形不定詞は、to をつけず、動詞の原形で用いる不定詞です。上の形では、「人」が後ろの動作をします。</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">My mother made me clean my room.</span>（母は私に部屋を掃除させました）</p>
-  <p>能動態の <span class="en">make / let + 人</span> の後は<b>原形不定詞</b>です。<span class="en">help + 人</span> の後は<b>原形不定詞・to不定詞の両方</b>が使えます。</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">Let me try.</span>（私にやらせてください）／<span class="en">She helped me (to) cook.</span>（彼女は私が料理するのを手伝いました）</p>
-  <p><b>受動態の make は to が必要</b>です：<span class="en">I was made <b>to clean</b> my room.</span>（私は部屋を掃除させられました）。</p>
-  </div>
-  <p class="ng"><span class="en">My mother made me to clean my room.</span> → <span class="en">My mother made me clean my room.</span>（能動態の <span class="en">make + 人</span> の後は原形不定詞）</p>
-  <h4>It is 〜 for … to の文</h4>
-  <div class="fm">
-    <div class="form"><b>It is</b> + 形容詞 + <b>for</b> + 人 + <b>to</b> + 動詞の原形.</div>
-    <div class="yaku">（人）<b>にとって</b>〜<b>するのは</b>…<b>です</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">It is important for us to study English.</span>（私たちにとって英語を勉強することは大切です）</p>
-  <p>名詞的用法です。<span class="en">It</span> は形式主語で、<span class="en">to</span> 以下が本当の主語です。<span class="en">for + 人</span> は、その動作をする人を示します。</p>
-  <p>よく使う形容詞：<span class="en">easy / difficult / hard / important / exciting / interesting / necessary / dangerous</span></p>
+<div class="pt" id="t5">
+<h3>5. 未来</h3>
+<div class="sig"><span class="en"><b>be going to</b></span> か <span class="en"><b>will</b></span> があれば未来。どちらもうしろは<b>動詞の原形</b>。</div>
+<div class="fm">
+<div class="form"><b>be going to</b> + 動詞の原形</div>
+<div class="yaku"><b>〜するつもりだ／〜しそうだ</b></div>
 </div>
-
-<div class="pt" id="t13"><span class="no">13</span>
-  <h3>動名詞<span class="sub">動詞を「〜すること」にする</span></h3>
-  <div class="sig"><span class="en"><b>動詞のing形</b></span> が<b>名詞の働き</b>をしている。形は進行形のing形と同じ。</div>
-  <div class="fm">
-    <div class="form"><b>動詞のing形</b></div>
-    <div class="yaku"><b>〜すること</b></div>
-  </div>
-  <p>文の中で<b>主語・動詞の目的語・補語・前置詞の目的語</b>になる。</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I enjoy playing soccer.</span>（私はサッカーをすることを楽しみます）</p>
-  <h4 id="objform">不定詞（名詞的用法）との使い分け</h4>
-  <p>どちらも「〜すること」を表すが、<b>目的語になる場合は前の動詞ごとに形が決まる。</b>下は公立高校入試で使う中学範囲の一覧。</p>
-  <table class="compact verb-choice">
-    <thead><tr><th>とれる形</th><th>動詞・表現</th><th>基本の意味</th></tr></thead>
-    <tbody>
-    <tr><td class="plain"><span class="en"><b>to do</b></span></td><td class="plain"><span class="en"><b>agree / choose / decide / expect / hope / learn / need / plan / promise / refuse / want</b></span></td><td class="plain">これからすること・意志・決定を表すものが多い</td></tr>
-    <tr><td class="plain"><span class="en"><b>doing</b></span></td><td class="plain"><span class="en"><b>avoid / enjoy / finish / give up / keep / mind / practice</b></span></td><td class="plain">実際の行為・経験を表すものが多い</td></tr>
-    <tr><td class="plain"><b>両方<br>意味はほぼ同じ</b></td><td class="plain"><span class="en"><b>begin / continue / hate / like / love / prefer / start</b></span></td><td class="plain">基本は両方使えるが、文脈で意味合いが異なる</td></tr>
-    <tr><td class="plain"><b>両方<br>意味が変わる</b></td><td class="plain"><span class="en"><b>forget / remember / stop / try</b></span></td><td class="plain">次の表で意味を区別する</td></tr>
-    </tbody>
-  </table>
-  <h4>両方で意味が変わる動詞</h4>
-  <table class="compact">
-    <thead><tr><th><span class="en">doing</span> の形</th><th>意味</th><th><span class="en">to do</span> の形</th><th>意味</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>stop doing</b></span></td><td>〜するのをやめる</td><td><span class="en"><b>stop to do</b></span></td><td>〜するために立ち止まる</td></tr>
-    <tr><td><span class="en"><b>remember doing</b></span></td><td>〜したことを覚えている</td><td><span class="en"><b>remember to do</b></span></td><td>忘れずに〜する</td></tr>
-    <tr><td><span class="en"><b>forget doing</b></span></td><td>〜したことを忘れる</td><td><span class="en"><b>forget to do</b></span></td><td>〜するのを忘れる</td></tr>
-    <tr><td><span class="en"><b>try doing</b></span></td><td>試しに〜してみる</td><td><span class="en"><b>try to do</b></span></td><td>〜しようと努力する</td></tr>
-    </tbody>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I stopped playing soccer.</span>（サッカーをするのをやめました） / <span class="en">I stopped to drink water.</span>（水を飲むために立ち止まりました）</p>
-  <p><span class="en"><b>stop to do</b></span> の <span class="en">to do</span> は <span class="en">stop</span> の目的語ではなく、<b>「〜するために」という目的</b>を表す<b>③副詞的用法</b>です。</p>
-  <h4>前置詞のうしろに動詞を置くなら動名詞（<span class="en">to</span> 不定詞は使えない）</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>Thank you for</b> 〜ing.</span></td><td>〜してくれてありがとう</td></tr>
-    <tr><td><span class="en">be <b>good at</b> 〜ing</span></td><td>〜するのが得意だ</td></tr>
-    <tr><td><span class="en">be <b>interested in</b> 〜ing</span></td><td>〜することに興味がある</td></tr>
-    <tr><td><span class="en">be <b>afraid of</b> 〜ing</span></td><td>〜するのが怖い</td></tr>
-    <tr><td><span class="en"><b>How about</b> 〜ing?</span></td><td>〜するのはどうですか</td></tr>
-    <tr><td><span class="en"><b>without</b> 〜ing</span></td><td>〜せずに</td></tr>
-    <tr><td><span class="en"><b>before［after］</b> 〜ing</span></td><td>〜する前に［したあとに］</td></tr>
-    <tr><td><span class="en"><b>look forward to</b> 〜ing</span></td><td>〜するのを楽しみに待つ</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">Thank you for helping me.</span>（手伝ってくれてありがとう）</p>
+<div class="fm">
+<div class="form"><b>will</b> + 動詞の原形</div>
+<div class="yaku"><b>〜だろう／〜するつもりだ</b></div>
 </div>
-
-<div class="pt" id="t14"><span class="no">14</span>
-  <h3>比較①<span class="sub">同じ・より〜・一番〜</span></h3>
-  <div class="sig"><span class="en"><b>as 〜 as</b></span> なら原級、<span class="en"><b>than</b></span> があれば比較級、<span class="en"><b>the -est / the most</b></span> なら最上級。</div>
-  <div class="fm">
-    <div class="form"><b>as</b> + 原級 + <b>as</b> + 〜</div>
-    <div class="yaku">…と<b>同じくらい</b>〜</div>
-  </div>
-  <div class="fm">
-    <div class="form"><b>比較級</b> + <b>than</b> + 〜</div>
-    <div class="yaku">…<b>よりも</b>〜</div>
-  </div>
-  <div class="fm">
-    <div class="form"><b>the</b> + <b>最上級</b> + <b>in［of］</b> + 〜</div>
-    <div class="yaku">…<b>の中で一番</b>〜</div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">Ken is as tall as Tom. / Ken is taller than Tom. / Ken is the tallest in his class.</span></p>
-  <p>範囲が<b>場所・集団</b>なら <span class="en">in</span>、<b>数や構成員</b>を示す語句なら <span class="en">of</span>。</p>
-  <p>副詞の最上級では <span class="en">the</span> を省くことがあります：<span class="en">He runs (the) fastest.</span>（彼が一番速く走ります）。</p>
-  <h4>比較級・最上級の形</h4>
-  <table class="fx fx2 comparison-forms">
-    <tr><th>条件</th><th>形</th></tr>
-    <tr><td class="n2">主に1音節の語など</td><td class="n2">語尾に <b>er, est</b>（<span class="en">old – older – oldest</span>）</td></tr>
-    <tr><td class="n2">主に3音節以上・一部の2音節の語</td><td class="n2">前に <b>more, most</b><br><span class="en">beautiful – more beautiful – most beautiful</span></td></tr>
-    <tr><td class="n2">不規則変化</td><td class="n2"><span class="en">good / well – <b>better</b> – <b>best</b></span><br><span class="en">bad – <b>worse</b> – <b>worst</b></span><br><span class="en">many / much – <b>more</b> – <b>most</b></span><br><span class="en">little（量）– <b>less</b> – <b>least</b></span></td></tr>
-  </table>
-  <p class="ng"><span class="en">Ken is more taller than Tom.</span> → <span class="en">Ken is taller than Tom.</span> / <span class="en">This book is gooder than that one.</span> → <span class="en">This book is better than that one.</span></p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I am going to study tonight. / I will study tonight.</span></p>
+<h4>否定文・疑問文</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>作り方</th></tr></thead>
+<tr><td>主語 + <b>be動詞 + not</b> + going to + 動詞の原形 + 〜.</td><td>be動詞のうしろに <span class="en">not</span> を置く</td></tr>
+<tr><td><b>Be動詞</b> + 主語 + going to + 動詞の原形 + 〜?</td><td>be動詞を主語の前に出す</td></tr>
+<tr><td>主語 + <b>will not</b> + 動詞の原形 + 〜.</td><td><span class="en">will</span> のうしろに <span class="en">not</span>。短縮形は <span class="en"><b>won't</b></span></td></tr>
+<tr><td><b>Will</b> + 主語 + 動詞の原形 + 〜?</td><td><span class="en">will</span> を主語の前に出す</td></tr>
+</table>
 </div>
-
-<div class="pt" id="t15"><span class="no">15</span>
-  <h3>比較②<span class="sub">好み・倍数・順位を比べる</span></h3>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en">like A <b>better than</b> B</span></td><td>BよりもAのほうが好きだ</td></tr>
-    <tr><td><span class="en">like A <b>(the) best in［of］</b></span> + 〜</td><td>…の中でAが一番好きだ</td></tr>
-    <tr><td><span class="en"><b>Which［Who］</b></span> + <b>be動詞</b> + 比較級 + 〜<span class="en">, A <b>or</b> B?</span></td><td>AとBではどちらのほうが〜ですか</td></tr>
-    <tr><td><span class="en"><b>What［Who / Which］</b></span> + <b>be動詞 + the</b> + 最上級 + 〜 + <span class="en">in［of］</span> + …?</td><td>…の中で何［だれ／どれ］が一番〜ですか</td></tr>
-    <tr><td>比較級 + <span class="en"><b>than any other</b></span> + <b>単数名詞</b> + 〜</td><td>他のどの…よりも〜</td></tr>
-    <tr><td><span class="en"><b>one of the</b></span> + 最上級 + <b>複数名詞</b> + 〜</td><td>最も〜の中の1つ</td></tr>
-    <tr><td><span class="en"><b>not as</b></span> + 原級 + <span class="en"><b>as</b></span> + 〜</td><td>…ほど〜ではない</td></tr>
-    <tr><td><span class="en"><b>twice as</b></span> + 原級 + <span class="en"><b>as</b></span> + 〜</td><td>…の2倍〜</td></tr>
-    <tr><td><span class="en"><b>as</b></span> + 原級 + <span class="en"><b>as possible</b></span></td><td>できるだけ〜</td></tr>
-  </table>
-  <p><b>書きかえ</b>：<span class="en">A is <b>not as</b> tall <b>as</b> B.</span> ＝ <span class="en">B is <b>taller than</b> A.</span>（主語が入れかわる）</p>
+<div class="pt" id="t6">
+<h3>6. 命令文</h3>
+<div class="sig"><b>主語がなく、いきなり動詞の原形</b>で始まる文。</div>
+<table class="fx fx2"><thead><tr><th>形</th><th>訳</th></tr></thead>
+<tr><td><b>動詞の原形</b> + 〜.</td><td>〜しなさい</td></tr>
+<tr><td><b><span class="en">Please</span></b> + 動詞の原形 + 〜.<br/>動詞の原形 + 〜<b><span class="en">, please</span></b>.</td><td>〜してください</td></tr>
+<tr><td><b><span class="en">Don't</span></b> + 動詞の原形 + 〜.</td><td>〜してはいけません</td></tr>
+<tr><td><b><span class="en">Let's</span></b> + 動詞の原形 + 〜.</td><td>〜しましょう</td></tr>
+<tr><td><b><span class="en">Be</span></b> + 〜.</td><td>（be動詞の命令文）〜でいなさい</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">Open the door, please.</span>（ドアを開けてください）</p>
 </div>
-
-<div class="pt" id="t16"><span class="no">16</span>
-  <h3>接続詞<span class="sub">語・句・文をつなぐ</span></h3>
-  <h4>対等につなぐ</h4>
-  <table class="fx fx4">
-    <tr><th>語</th><th>意味</th><th>語</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>and</b></span></td><td>〜と…</td><td><span class="en"><b>but</b></span></td><td>〜しかし…</td></tr>
-    <tr><td><span class="en"><b>or</b></span></td><td>〜かまたは…</td><td><span class="en"><b>so</b></span></td><td>〜それで…</td></tr>
-  </table>
-  <h4>文をつなぐ（うしろは 主語＋動詞）</h4>
-  <table class="fx fx2">
-    <tr><th>語</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>when</b></span> + 主語 + 動詞</td><td>〜（する［した］）とき</td></tr>
-    <tr><td><span class="en"><b>because</b></span> + 主語 + 動詞</td><td>〜なので</td></tr>
-    <tr><td><span class="en"><b>if</b></span> + 主語 + 動詞</td><td>もし〜ならば</td></tr>
-    <tr><td><span class="en"><b>before</b></span> + 主語 + 動詞</td><td>〜する前に</td></tr>
-    <tr><td><span class="en"><b>after</b></span> + 主語 + 動詞</td><td>〜したあとに</td></tr>
-    <tr><td><span class="en"><b>while</b></span> + 主語 + 動詞</td><td>〜する間に</td></tr>
-    <tr><td><span class="en"><b>until</b></span> + 主語 + 動詞</td><td>〜するまで</td></tr>
-    <tr><td><span class="en"><b>though［although］</b></span> + 主語 + 動詞</td><td>〜だけれども</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I stayed home because it was raining.</span>（雨が降っていたので家にいました）</p>
-  <p><b>時・条件を表す接続詞（<span class="en">when / if / before / after / until / as soon as</span> など）の中は、未来のことでも現在形で書く。</b></p>
-  <h4>that</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td>動詞 + <span class="en"><b>(that)</b></span> + 主語 + 動詞</td><td>〜ということ<br><span class="en">know / think / hope / feel / say / understand</span></td></tr>
-    <tr><td><span class="en"><b>be glad［happy / sure / sorry］(that)</b></span> + 主語 + 動詞</td><td>〜でうれしい［〜だと確信している／〜で残念だ］</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I think that English is important.</span>（私は英語が大切だと思います）</p>
-  <p>上のように動詞や形容詞に続く接続詞の <span class="en">that</span> は、<b>多くの場合省略できます</b>。</p>
-  <h4>そのほかの重要な形</h4>
-  <table class="fx fx2">
-    <thead><tr><th>形</th><th>意味</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>both</b> A <b>and</b> B</span></td><td>AとBの両方とも</td></tr>
-    <tr><td><span class="en"><b>so</b></span> + 形容詞・副詞 + <span class="en"><b>that</b></span> + 主語 + 動詞</td><td>とても…なので〜</td></tr>
-    <tr><td><span class="en"><b>as soon as</b></span> + 主語 + 動詞</td><td>〜するとすぐに</td></tr>
-    <tr><td><span class="en"><b>so</b></span> + 形容詞 + <span class="en"><b>that</b></span> + 主語 + <span class="en"><b>can't</b></span></td><td>とても…なので〜できない</td></tr>
-    <tr><td><span class="en"><b>too</b></span> + 形容詞 + <span class="en"><b>to</b></span> + 動詞の原形</td><td>…すぎて〜できない</td></tr>
-    <tr><td>形容詞 + <span class="en"><b>enough to</b></span> + 動詞の原形</td><td>〜するのに十分…</td></tr>
-    </tbody>
-  </table>
-  <p><b>書きかえ</b>：<span class="en"><b>too</b> 〜 <b>to</b> …</span> ＝ <span class="en"><b>so</b> 〜 <b>that</b> + 主語 + <b>can't</b> …</span></p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">Ken is so tired that he can't walk. ＝ Ken is too tired to walk.</span></p>
+<div class="pt" id="t7">
+<h3>7. 疑問詞</h3>
+<div class="sig">文の先頭が疑問詞。<b>Yes / No では答えない</b>。</div>
+<table class="fx fx4"><thead><tr><th>疑問詞</th><th>意味</th><th>疑問詞</th><th>意味</th></tr></thead>
+<tr><td><span class="en">what</span></td><td>何</td><td><span class="en">where</span></td><td>どこ</td></tr>
+<tr><td><span class="en">who</span></td><td>だれ</td><td><span class="en">when</span></td><td>いつ</td></tr>
+<tr><td><span class="en">whose</span></td><td>だれの</td><td><span class="en">how</span></td><td>どのように</td></tr>
+<tr><td><span class="en">which</span></td><td>どれ</td><td><span class="en">why</span></td><td>なぜ</td></tr>
+</table>
+<h4>疑問文の作り方</h4>
+<table class="fx qmake"><thead><tr><th>条件</th><th>形</th><th>例文</th></tr></thead>
+<tr><td class="n2">be動詞の文</td><td><b>疑問詞</b> + be動詞 + 主語 + 〜?</td><td class="n2"><span class="en">Where is Ken?</span></td></tr>
+<tr><td class="n2">一般動詞の文</td><td><b>疑問詞</b> + <span class="en">do［does / did］</span> + 主語 + <b>動詞の原形</b> + 〜?</td><td class="n2"><span class="en">What do you want?</span></td></tr>
+<tr><td class="n2">疑問詞が主語</td><td><b>疑問詞</b> + <b>動詞</b> + 〜?</td><td class="n2"><span class="en">Who plays soccer?</span></td></tr>
+</table>
+<p><b>選択疑問文</b>：<span class="en">Do you want tea <b>or</b> coffee?</span> のように選択肢を <span class="en">or</span> で結ぶ。<span class="en">Yes / No</span> ではなく、選んだ方で答える。</p>
+<h4>2語で使う疑問詞</h4>
+<table class="fx fx4"><thead><tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>how many</b></span> + 複数名詞</td><td>いくつ（数）</td><td><span class="en"><b>how far</b></span></td><td>どのくらい（距離）</td></tr>
+<tr><td><span class="en"><b>how much</b></span></td><td>いくら（値段・量）</td><td><span class="en"><b>how often</b></span></td><td>どのくらい（回数）</td></tr>
+<tr><td><span class="en"><b>how long</b></span></td><td>どのくらい（期間・長さ）</td><td><span class="en"><b>how tall / high</b></span></td><td>どのくらい（高さ）</td></tr>
+<tr><td><span class="en"><b>how old</b></span></td><td>何歳</td><td><span class="en"><b>what day</b></span></td><td>何曜日</td></tr>
+<tr><td><span class="en"><b>what time</b></span></td><td>何時</td><td><span class="en"><b>what kind of</b></span></td><td>どんな種類の</td></tr>
+</table>
+<h4>感嘆文<span style="font-weight:400;font-size:11px">（なんて〜だ！）</span></h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>例</th></tr></thead>
+<tr><td><span class="en"><b>How</b></span> + 形容詞［副詞］ + <span class="en">主語 + 動詞</span>！</td><td class="n2"><span class="en">How interesting (it is)!</span></td></tr>
+<tr><td><span class="en"><b>What</b></span> (a[an]) + 形容詞 + 名詞 + <span class="en">主語 + 動詞</span>！</td><td class="n2"><span class="en">What a big tree (it is)!</span></td></tr>
+</table>
+<p><b>うしろに名詞があるかないか</b>で見分ける──名詞があれば <span class="en">What</span>、なければ <span class="en">How</span>。<span class="en">主語 + 動詞</span> は<b>省略されることが多い</b>。</p>
 </div>
-
-<div class="pt" id="t17"><span class="no">17</span>
-  <h3>分詞<span class="sub">動詞の形を変えて名詞を説明</span></h3>
-  <div class="sig"><b>現在分詞</b>＝進行形で使う動詞のing形と同じ。<b>過去分詞</b>＝規則動詞は過去形と同じ形、不規則動詞は固有の形。</div>
-  <h4>現在分詞（〜している…）</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>使うとき</th></tr>
-    <tr><td><b>名詞 + 現在分詞 + 語句</b></td><td>他の語句を伴うとき → <b>後置修飾</b>（前の名詞を説明）</td></tr>
-    <tr><td><b>現在分詞 + 名詞</b></td><td>単独のときは原則 → <b>前置修飾</b>（後ろの名詞を説明）</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">The boy playing soccer is Ken.</span>（サッカーをしている少年はケンです）</p>
-  <h4>過去分詞（〜される［された］…）</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>使うとき</th></tr>
-    <tr><td><b>名詞 + 過去分詞 + 語句</b></td><td>他の語句を伴うとき → <b>後置修飾</b>（前の名詞を説明）</td></tr>
-    <tr><td><b>過去分詞 + 名詞</b></td><td>単独のときは原則 → <b>前置修飾</b>（後ろの名詞を説明）</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">This is a picture taken by my father.</span>（これは父によって撮られた写真です）</p>
-  <p>自然な日本語では「これは父が撮った写真です」とも訳せます。写真と <span class="en">taken</span> の関係は<b>「写真が撮られる」</b>という受け身です。</p>
-  <p><b>分詞＋他の語句は名詞の後ろ、分詞1語は原則として名詞の前</b>に置きます。後ろから名詞を説明する働きが<b>後置修飾</b>です。不定詞や関係代名詞にも後置修飾があります。</p>
-  <p class="mini-ex"><span class="tag">比較</span><span class="en">a sleeping baby</span>（眠っている赤ちゃん）／<span class="en">a broken window</span>（壊れた窓）。分詞1語でも後ろに置く例はあります：<span class="en">the language spoken</span>（話されている言語）。</p>
+<div class="pt" id="t8">
+<h3>8. There is［are］</h3>
+<div class="sig">文頭が <span class="en"><b>There is / There are</b></span>。この <span class="en">there</span> は「そこに」と訳さない。</div>
+<div class="fm">
+<div class="form"><b>There is［are / was / were］</b> + 〜.</div>
+<div class="yaku">（…に）<b>〜がある［あった］</b></div>
 </div>
-
-<div class="pt" id="t18"><span class="no">18</span>
-  <h3>現在完了①<span class="sub">過去から今まで「ずっと」</span></h3>
-  <div class="sig"><span class="en"><b>have［has］+ 過去分詞</b></span> の形。よく使う目印：<span class="en"><b>for / since</b></span> があれば<b>継続</b>。</div>
-  <div class="fm">
-    <div class="form"><b>have［has］</b> + <b>過去分詞</b></div>
-    <div class="yaku"><b>ずっと〜している［〜してきた］</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I have lived here for three years.</span>（私は3年間ここに住んでいます）</p>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>for</b></span> + 期間を表す語句</td><td>〜の間</td></tr>
-    <tr><td><span class="en"><b>since</b></span> + 起点を表す語句</td><td>〜以来、〜から（今まで）</td></tr>
-  </table>
-  <h4>否定文・疑問文</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td>主語 + <span class="en"><b>have［has］not</b></span> + 過去分詞 + 〜.</td><td>ずっと〜していません</td></tr>
-    <tr><td><span class="en"><b>Have［Has］</b></span> + 主語 + 過去分詞 + 〜?</td><td>ずっと〜していますか</td></tr>
-    <tr><td><span class="en"><b>How long have［has］</b></span> + 主語 + 過去分詞 + 〜?</td><td>どのくらい〜していますか</td></tr>
-  </table>
-  <p class="ng"><span class="en">I have played soccer yesterday.</span> → <span class="en">I played soccer yesterday.</span>（過去の一点を表す語といっしょなら過去形）</p>
-  <h4>動作がずっと続いているとき</h4>
-  <div class="fm">
-    <div class="form"><b>have［has］been</b> + <b>動詞のing形</b></div>
-    <div class="yaku"><b>ずっと〜し続けている</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I have been studying English for two hours.</span>（私は2時間ずっと英語を勉強しています）</p>
-  <p><span class="en">know / like</span> などの<b>状態の継続</b>は、普通 <span class="en">have + 過去分詞</span> で表します。<span class="en">study / run / rain</span> などの<b>動作が一定時間続いている</b>場合は <span class="en">have been + ing形</span> が自然です。<span class="en">live</span> は両方使えます：<span class="en">have lived / have been living</span>。</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">There is a book on the desk.</span>（机の上に本が1冊あります）</p>
+<h4>否定文・疑問文</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>作り方</th></tr></thead>
+<tr><td><span class="en">There</span> + <b>be動詞 + not</b> + 名詞 + 〜.<br/><span class="en">There</span> + be動詞 + <b>no</b> + 名詞 + 〜.</td><td>be動詞のうしろに <span class="en">not</span>、または名詞の前に <span class="en">no</span></td></tr>
+<tr><td><b>Be動詞</b> + <span class="en">there</span> + 名詞 + 〜?</td><td>be動詞を <span class="en">there</span> の前に出す</td></tr>
+<tr><td><b><span class="en">How many</span></b> + 名詞の複数形 + <span class="en">are there</span> + 〜?</td><td>数をたずねる</td></tr>
+</table>
+<h4>いっしょに使う場所の前置詞</h4>
+<table class="fx fx4"><thead><tr><th>前置詞</th><th>意味</th><th>前置詞</th><th>意味</th></tr></thead>
+<tr><td><span class="en">in</span></td><td>〜の中に</td><td><span class="en">under</span></td><td>〜の下に</td></tr>
+<tr><td><span class="en">on</span></td><td>〜の上に</td><td><span class="en">near</span></td><td>〜の近くに</td></tr>
+<tr><td><span class="en">at</span></td><td>〜に</td><td><span class="en">by</span></td><td>〜のそばに</td></tr>
+</table>
 </div>
-
-<div class="pt" id="t19"><span class="no">19</span>
-  <h3>現在完了②<span class="sub">今までの経験・今の完了状態</span></h3>
-  <div class="sig">よく使う目印：<span class="en"><b>ever / never / before / once</b></span> なら<b>経験</b>、<span class="en"><b>just / already / yet</b></span> なら<b>完了</b>。</div>
-  <h4>経験</h4>
-  <div class="fm">
-    <div class="form"><b>have［has］</b> + <b>過去分詞</b></div>
-    <div class="yaku">（今までに）<b>〜したことがある</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I have visited Kyoto twice.</span>（私は京都を2度訪れたことがあります）</p>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td>主語 + <span class="en"><b>have［has］never</b></span> + 過去分詞 + 〜.</td><td>1度も〜したことがありません</td></tr>
-    <tr><td><span class="en"><b>Have［Has］</b></span> + 主語 + <span class="en">(<b>ever</b>)</span> + 過去分詞 + 〜?</td><td>（今までに）〜したことがありますか</td></tr>
-  </table>
-  <table class="fx fx4">
-    <tr><th>いっしょに使う語</th><th>意味</th><th>語</th><th>意味</th></tr>
-    <tr><td><span class="en">before</span></td><td>以前に</td><td><span class="en">... times</span></td><td>…度、…回</td></tr>
-    <tr><td><span class="en">once</span></td><td>1度、1回</td><td><span class="en">ever</span></td><td>今までに</td></tr>
-    <tr><td><span class="en">twice</span></td><td>2度、2回</td><td><span class="en">never</span></td><td>1度も〜ない</td></tr>
-  </table>
-  <h4>完了</h4>
-  <div class="fm">
-    <div class="form"><b>have［has］</b> + <b>過去分詞</b></div>
-    <div class="yaku"><b>〜したところだ／〜してしまった</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I have just finished my homework.</span>（私はちょうど宿題を終えたところです）</p>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td>主語 + <span class="en"><b>have［has］not</b></span> + 過去分詞 + 〜<span class="en">(<b>yet</b>)</span>.</td><td>まだ〜していません</td></tr>
-    <tr><td><span class="en"><b>Have［Has］</b></span> + 主語 + 過去分詞 + 〜<span class="en">(<b>yet</b>)</span>?</td><td>もう〜してしまいましたか</td></tr>
-    <tr><td>主語 + <span class="en"><b>have［has］just</b></span> + 過去分詞 + 〜.</td><td>ちょうど〜したところです</td></tr>
-    <tr><td>主語 + <span class="en"><b>have［has］already</b></span> + 過去分詞 + 〜.</td><td>もう〜してしまいました</td></tr>
-  </table>
-  <h4>いっしょに使う語の基本の位置</h4>
-  <table class="fx fx2">
-    <tr><th>語</th><th>置く場所</th></tr>
-    <tr><td><span class="en">ever / never / just / already</span></td><td class="n2"><span class="en">have［has］</span>と<b>過去分詞の間</b></td></tr>
-    <tr><td><span class="en">before / once / twice / 〜 times / yet</span></td><td class="n2"><b>文の最後</b></td></tr>
-  </table>
-  <p>上は基本の位置です。<span class="en">already</span> を文末に置くなど、ほかの位置をとることもあります。</p>
-  <h4>まちがえやすい2つ</h4>
-  <table class="fx fx2 been-gone">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en">have <b>been to</b></span> + 場所</td><td>〜へ行ったことがある／行ってきた（戻っている）</td></tr>
-    <tr><td><span class="en">have <b>gone to</b></span> + 場所</td><td>〜へ行ってしまった（まだ戻っていない）</td></tr>
-  </table>
+<div class="pt" id="t9">
+<h3>9. 助動詞<span class="sub">助動詞のように使う表現もふくむ</span></h3>
+<div class="sig">動詞の前に助動詞があり、そのうしろが<b>動詞の原形</b>。</div>
+<div class="fm">
+<div class="form">主語 + <b>助動詞</b> + <b>動詞の原形</b> + 〜.</div>
 </div>
-
-<div class="pt" id="t20"><span class="no">20</span>
-  <h3>受動態<span class="sub">「〜される」と受け手を主語に</span></h3>
-  <div class="sig"><span class="en"><b>be動詞 + 過去分詞</b></span> の形。主語が<b>動作を受ける側</b>になります。<span class="en">by + 行為者</span> は省略されることもあります。</div>
-  <div class="fm">
-    <div class="form"><b>be動詞</b> + <b>過去分詞</b>（+ <b>by</b> + 行為者）</div>
-    <div class="yaku">（…によって）<b>〜される、〜された</b></div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">English is spoken in many countries.</span>（英語は多くの国で話されています）</p>
-  <p>be動詞は主語と時制で使い分ける ── <span class="en">is, am, are</span>（現在）／<span class="en">was, were</span>（過去）。</p>
-  <h4>時制・助動詞による形</h4>
-  <table class="fx fx4 passive-tense">
-    <tr><th>形</th><th>時</th><th>形</th><th>時・意味</th></tr>
-    <tr><td><span class="en"><b>am［is / are］</b> + 過去分詞</span></td><td>現在</td><td><span class="en"><b>was［were］</b> + 過去分詞</span></td><td>過去</td></tr>
-    <tr><td><span class="en"><b>will be</b> + 過去分詞</span></td><td>未来</td><td><span class="en"><b>can［must］be</b> + 過去分詞</span></td><td>〜され得る［されなければならない］</td></tr>
-  </table>
-  <h4>否定文・疑問文</h4>
-  <table class="fx">
-    <tr><th>形</th></tr>
-    <tr><td>主語 + <b>be動詞 + not</b> + 過去分詞 +（<span class="en">by</span> + 行為者）.</td></tr>
-    <tr><td><b>Be動詞</b> + 主語 + 過去分詞 +（<span class="en">by</span> + 行為者）?</td></tr>
-  </table>
-  <h4>受動態と、過去分詞からできた状態の表現</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><span class="en">be <b>made of</b></span> + 材料</td><td>〜でできている</td></tr>
-    <tr><td><span class="en">be <b>made from</b></span> + 原料</td><td>〜でできている</td></tr>
-    <tr><td><span class="en">be <b>interested in</b></span></td><td>〜に興味がある</td></tr>
-    <tr><td><span class="en">be <b>surprised at</b></span></td><td>〜に驚く</td></tr>
-    <tr><td><span class="en">be <b>impressed with</b></span></td><td>〜に感動する</td></tr>
-    <tr><td><span class="en">be <b>covered with</b></span></td><td>〜でおおわれている</td></tr>
-    <tr><td><span class="en">be <b>filled with</b></span></td><td>〜でいっぱいだ</td></tr>
-    <tr><td><span class="en">be <b>known to</b></span></td><td>〜に知られている</td></tr>
-    <tr><td><span class="en">be <b>pleased with</b></span></td><td>〜に喜んでいる</td></tr>
-    <tr><td><span class="en">be <b>born</b></span></td><td>生まれる</td></tr>
-  </table>
-  <p><span class="en">be made <b>of</b></span> は<b>材料の性質が保たれる</b>とき、<span class="en">be made <b>from</b></span> は<b>原料が加工されて別の形・性質になる</b>ときに使います。「見えるかどうか」だけで決めないようにします。</p>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">This desk is made of wood.</span>（この机は木でできています）</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I can swim.</span>（私は泳ぐことができます）</p>
+<table class="fx fx2 modal-list">
+<thead><tr><th>助動詞</th><th>意味</th></tr></thead>
+<tbody>
+<tr><td><span class="en"><b>can</b></span></td><td>〜することができる</td></tr>
+<tr><td><span class="en"><b>must</b></span></td><td>〜しなければならない／〜にちがいない</td></tr>
+<tr><td><span class="en"><b>may</b></span></td><td>〜してもよい／〜かもしれない</td></tr>
+<tr><td><span class="en"><b>should</b></span></td><td>〜するべきだ</td></tr>
+<tr><td><span class="en"><b>will</b></span></td><td>〜だろう／〜するつもりだ</td></tr>
+<tr><td><span class="en"><b>shall</b></span></td><td>〜しましょうか（<span class="en">Shall I / Shall we</span>）</td></tr>
+<tr><td><span class="en"><b>could</b></span></td><td>〜することができた（<span class="en">can</span> の過去形）</td></tr>
+<tr><td><span class="en"><b>would</b></span></td><td><span class="en">will</span> の過去形・仮定法で使う。<span class="en">Would you 〜?</span> で〜してくださいますか（ていねい）</td></tr>
+</tbody>
+</table>
+<h4>助動詞のように使う表現<span style="font-weight:400;font-size:11px">（うしろは動詞の原形）</span></h4>
+<table class="fx fx2"><thead><tr><th>表現</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>have［has］to</b></span> + 動詞の原形</td><td>〜しなければならない</td></tr>
+<tr><td><span class="en"><b>be able to</b></span> + 動詞の原形</td><td>〜することができる（<span class="en">can</span> の書きかえ）</td></tr>
+</table>
+<h4>短縮形</h4>
+<table class="fx fx4"><thead><tr><th>短縮形</th><th>もとの形</th><th>短縮形</th><th>もとの形</th></tr></thead>
+<tr><td><span class="en">can't</span></td><td class="n2"><span class="en">cannot</span></td><td><span class="en">won't</span></td><td class="n2"><span class="en">will not</span></td></tr>
+<tr><td><span class="en">mustn't</span></td><td class="n2"><span class="en">must not</span></td><td><span class="en">shouldn't</span></td><td class="n2"><span class="en">should not</span></td></tr>
+</table>
+<p><b>助動詞は2つ並べられない。</b><span class="en">I will can swim.</span> ではなく <span class="en">I will <b>be able to</b> swim.</span> とする。<span class="en">must</span> に過去形はないので、過去なら <span class="en">I <b>had to</b> study yesterday.</span> のように表す。</p>
+<h4>否定文・疑問文</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>作り方</th></tr></thead>
+<tr><td>主語 + <b>助動詞 + not</b> + 動詞の原形 + 〜.</td><td>助動詞のうしろに <span class="en">not</span> を置く</td></tr>
+<tr><td><b>助動詞</b> + 主語 + 動詞の原形 + 〜?</td><td>主語の前に助動詞を出す</td></tr>
+</table>
+<h4><span class="en">must</span> と <span class="en">have to</span> の否定文</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><b><span class="en">must not</span></b> + 動詞の原形</td><td><b>〜してはいけない</b></td></tr>
+<tr><td><b><span class="en">don't［doesn't］have to</span></b> + 動詞の原形</td><td><b>〜しなくてよい</b></td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">You must not run here.</span>（ここで走ってはいけません） / <span class="en">You do not have to come.</span>（来る必要はありません）</p>
+<h4>助動詞を使った表現</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>Can［May］I</b></span> + 動詞の原形 + 〜?</td><td>〜してもいいですか</td></tr>
+<tr><td><span class="en"><b>Can［Will］you</b></span> + 動詞の原形 + 〜?</td><td>〜してくれますか</td></tr>
+<tr><td><span class="en"><b>Could［Would］you</b></span> + 動詞の原形 + 〜?</td><td>〜してくださいますか</td></tr>
+<tr><td><span class="en"><b>Would you like to</b></span> + 動詞の原形 + 〜?</td><td>〜するのはいかがですか</td></tr>
+<tr><td><span class="en"><b>Shall I</b></span> + 動詞の原形 + 〜?</td><td>（わたしが）〜しましょうか</td></tr>
+<tr><td><span class="en"><b>Shall we</b></span> + 動詞の原形 + 〜?</td><td>（いっしょに）〜しましょうか</td></tr>
+</table>
 </div>
-
-<div class="pt" id="t21"><span class="no">21</span>
-  <h3>関係代名詞<span class="sub">文を使って前の名詞を説明</span></h3>
-  <div class="sig">名詞のうしろが <span class="en"><b>who / which / that</b></span>、または<b>いきなり「主語＋動詞」</b>。</div>
-  <h4>主格（うしろが動詞）</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><b>人</b> + <span class="en"><b>who</b></span> + <b>動詞</b> + 〜</td><td>〜する（人）</td></tr>
-    <tr><td><b>もの</b> + <span class="en"><b>which</b></span> + <b>動詞</b> + 〜</td><td>〜する（もの）</td></tr>
-    <tr><td><b>人［もの］</b> + <span class="en"><b>that</b></span> + <b>動詞</b> + 〜</td><td>〜する（人［もの］）</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I know a boy who speaks English.</span>（私は英語を話す少年を知っています）</p>
-  <p>説明される名詞を<b>先行詞</b>といいます。関係代名詞以下が先行詞を<b>後置修飾</b>します。</p>
-  <h4>目的格（うしろが主語＋動詞・省略できる）</h4>
-  <table class="fx fx2">
-    <tr><th>形</th><th>意味</th></tr>
-    <tr><td><b>人［もの］</b> + <span class="en"><b>that</b></span> + <b>主語 + 動詞</b> + 〜</td><td>主語が〜する（人［もの］）</td></tr>
-    <tr><td><b>もの</b> + <span class="en"><b>which</b></span> + <b>主語 + 動詞</b> + 〜</td><td>主語が〜する（もの）</td></tr>
-    <tr><td><b>人［もの］</b> + <b>主語 + 動詞</b> + 〜</td><td>主語が〜する（人［もの］）※<b>接触節</b>（関係代名詞の省略）</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">This is the book I bought yesterday.</span>（これは私が昨日買った本です）</p>
-  <p><b>上の形では、主格は省略できず、目的格は省略できます。</b>後ろの節で<b>主語が欠けていれば主格、目的語が欠けていれば目的格</b>です。動詞が続くか、別の主語＋動詞が続くかが手がかりになります。</p>
+<div class="pt" id="t10">
+<h3>10. 名詞・代名詞</h3>
+<h4>名詞の種類</h4>
+<table class="fx fx2 noun-types"><thead><tr><th>種類</th><th>中身</th></tr></thead>
+<tr><td class="n2"><b>数えられる名詞</b><br/>（複数形がある）</td><td class="n2"><span class="en">pen / book / apple</span> など。単数では <span class="en">a / an</span>、複数では <span class="en">-s</span> などを使う</td></tr>
+<tr><td class="n2"><b>数えられない名詞</b><br/>（複数形がない）</td><td class="n2"><span class="en">water / milk / information</span> など。ふつう <span class="en">a / an</span> や複数形を使わない</td></tr>
+</table>
+<h4>冠詞</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>a／an</b></span> + 数えられる名詞の単数</td><td>（不特定の）<b>1つの</b>〜</td></tr>
+<tr><td><span class="en"><b>the</b></span> + 名詞</td><td>（すでに話に出た・<b>特定の</b>）その〜</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I have a pen. The pen is blue.</span>（私はペンを1本持っています。そのペンは青いです）</p>
+<p><span class="en">a</span> は子音の発音、<span class="en">an</span> は母音の発音で始まる語の前。</p>
+<h4>複数形の作り方</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>作り方</th></tr></thead>
+<tr><td class="n2">ふつうの語</td><td class="n2">語尾に <b>-s</b>（<span class="en">book – books</span>）</td></tr>
+<tr><td class="n2">s / x / ch / sh で終わる語</td><td class="n2">語尾に <b>-es</b>（<span class="en">box – boxes</span>）</td></tr>
+<tr><td class="n2">子音字＋<span class="en">y</span> で終わる語</td><td class="n2"><span class="en">y</span> を <b>i</b> にかえて <b>-es</b>（<span class="en">city – cities</span>）</td></tr>
+<tr><td class="n2">不規則変化</td><td class="n2"><span class="en">man – men / child – children / foot – feet</span></td></tr>
+</table>
+<h4>人称代名詞</h4>
+<table class="grid5"><thead><tr><th></th><th>主格<br/>〜は</th><th>所有格<br/>〜の</th><th>目的格<br/>〜を・に</th><th>所有代名詞<br/>〜のもの</th></tr></thead>
+<tr><td class="h">わたし</td><td><span class="en">I</span></td><td><span class="en">my</span></td><td><span class="en">me</span></td><td><span class="en">mine</span></td></tr>
+<tr><td class="h">あなた</td><td><span class="en">you</span></td><td><span class="en">your</span></td><td><span class="en">you</span></td><td><span class="en">yours</span></td></tr>
+<tr><td class="h">彼</td><td><span class="en">he</span></td><td><span class="en">his</span></td><td><span class="en">him</span></td><td><span class="en">his</span></td></tr>
+<tr><td class="h">彼女</td><td><span class="en">she</span></td><td><span class="en">her</span></td><td><span class="en">her</span></td><td><span class="en">hers</span></td></tr>
+<tr><td class="h">それ</td><td><span class="en">it</span></td><td><span class="en">its</span></td><td><span class="en">it</span></td><td>—</td></tr>
+<tr><td class="h">わたしたち</td><td><span class="en">we</span></td><td><span class="en">our</span></td><td><span class="en">us</span></td><td><span class="en">ours</span></td></tr>
+<tr><td class="h">あなたたち</td><td><span class="en">you</span></td><td><span class="en">your</span></td><td><span class="en">you</span></td><td><span class="en">yours</span></td></tr>
+<tr><td class="h">彼ら・それら</td><td><span class="en">they</span></td><td><span class="en">their</span></td><td><span class="en">them</span></td><td><span class="en">theirs</span></td></tr>
+</table>
+<p><b>置く場所で決まる。</b>主語の位置 → 主格／動詞・前置詞のうしろ → 目的格／名詞の前 → 所有格</p>
+<h4>指示代名詞</h4>
+<table class="fx fx3"><thead><tr><th>近い</th><th>遠い</th><th>使うbe動詞</th></tr></thead>
+<tr><td><span class="en"><b>this</b></span>（これ・この）</td><td><span class="en"><b>that</b></span>（あれ・あの）</td><td class="n2"><span class="en">is / was</span></td></tr>
+<tr><td><span class="en"><b>these</b></span>（これら）</td><td><span class="en"><b>those</b></span>（あれら）</td><td class="n2"><span class="en">are / were</span></td></tr>
+</table>
+<p><span class="en">Is this your pen? — Yes, <b>it</b> is.</span> のように、答えでは <span class="en">this</span> ではなく <span class="en">it</span> で受ける。</p>
+<h4>再帰代名詞（〜自身）</h4>
+<table class="fx fx4 reflexive"><thead><tr><th>形</th><th></th><th>形</th><th></th></tr></thead>
+<tr><td><span class="en">myself / yourself</span></td><td class="n2">わたし自身／あなた自身</td><td><span class="en">ourselves</span></td><td class="n2">わたしたち自身</td></tr>
+<tr><td><span class="en">himself / herself / itself</span></td><td class="n2">彼／彼女／それ自身</td><td><span class="en">themselves</span></td><td class="n2">彼ら自身</td></tr>
+</table>
+<h4>数えられない名詞の量を表す語句</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en">a <b>cup of</b> 〜</span></td><td>カップ1杯の</td></tr>
+<tr><td><span class="en">a <b>glass of</b> 〜</span></td><td>コップ1杯の</td></tr>
+<tr><td><span class="en">a <b>piece of</b> 〜</span></td><td>1枚・1切れの</td></tr>
+</table>
+<p>複数なら <span class="en">two <b>cups</b> of tea</span> のように、量を表す <span class="en">cup / glass / piece</span> を複数形にする。</p>
+<h4>数・量を表す語</h4>
+<table class="fx fx4"><thead><tr><th>形</th><th>使う名詞</th><th>形</th><th>使う名詞</th></tr></thead>
+<tr><td><span class="en"><b>many</b></span></td><td>複数形</td><td><span class="en"><b>much</b></span></td><td>数えられない名詞</td></tr>
+<tr><td><span class="en"><b>(a) few</b></span></td><td>複数形</td><td><span class="en"><b>(a) little</b></span></td><td>数えられない名詞</td></tr>
+<tr><td><span class="en"><b>a lot of</b></span></td><td>どちらも</td><td><span class="en"><b>some / any</b></span></td><td>どちらも</td></tr>
+</table>
+<p><span class="en"><b>few / little</b></span>＝ほとんどない、<span class="en"><b>a few / a little</b></span>＝少しある。<span class="en">a</span> の有無で意味が変わる。</p>
 </div>
-
-<div class="pt" id="t22"><span class="no">22</span>
-  <h3>付加疑問・間接疑問<span class="sub">念押し・文に組み込む疑問</span></h3>
-  <h4>付加疑問（〜ですよね？）</h4>
-  <table class="fx fx2 tagq">
-    <tr><th>もとの文</th><th>形</th></tr>
-    <tr><td class="n2">肯定文の場合</td><td>肯定文<b>, 否定形</b>のbe動詞・助動詞・<span class="en">do／does／did</span> + <b>主語の代名詞?</b></td></tr>
-    <tr><td class="n2">否定文の場合</td><td>否定文<b>, 肯定形</b>のbe動詞・助動詞・<span class="en">do／does／did</span> + <b>主語の代名詞?</b></td></tr>
-    <tr><td class="n2">助動詞の文</td><td>〜<span class="en">, can't he? / will you?</span> のように<b>助動詞をそのまま使う</b></td></tr>
-    <tr><td class="n2">命令文</td><td>命令文<span class="en">, <b>will you</b>?</span>／<span class="en">Let's 〜, <b>shall we</b>?</span></td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">You are busy, aren't you?</span>（忙しいですよね？）<br><span class="en">You don't play tennis, do you?</span>（テニスはしないのですよね？）</p>
-  <p>相手に<b>確認・同意</b>を求める表現です。「〜ですね」も正しい訳です。語尾を上げると確認、下げると同意を求める気持ちが強まります。</p>
-  <p><b>答えは事実に合わせます。</b><span class="en">You don't play tennis, do you?</span> に、するなら <span class="en">Yes, I do.</span>、しないなら <span class="en">No, I don't.</span> と答えます。</p>
-  <p><span class="en">never / nothing / nobody</span> などを含む否定の文も、付加部分は肯定形です。</p>
-  <p><span class="en">I am 〜, <b>aren't I?</b></span>／<span class="en">There is 〜, <b>isn't there?</b></span> にも注意します。</p>
-  <h4>間接疑問（疑問文を文の中に入れる）</h4>
-  <table class="fx indq">
-    <tr><th>形</th><th>完成した文</th><th>もとの疑問文</th></tr>
-    <tr><td>動詞 + <b>疑問詞 + 主語 + be動詞</b></td><td class="n2"><span class="en">Do you know where Mike is?</span></td><td class="n2"><span class="en">Where is Mike?</span></td></tr>
-    <tr><td>動詞 + <b>疑問詞 + 主語 + 一般動詞</b></td><td class="n2"><span class="en">I know what you want.</span></td><td class="n2"><span class="en">What do you want?</span></td></tr>
-    <tr><td>動詞 + <b>疑問詞 + 動詞</b><br>※疑問詞が主語</td><td class="n2"><span class="en">I know who made this cake.</span></td><td class="n2"><span class="en">Who made this cake?</span></td></tr>
-  </table>
-  <p>疑問詞のうしろは「主語＋動詞」の語順にします。疑問詞自体が主語のときは、「疑問詞＋動詞」のままです。</p>
+<div class="pt" id="t11">
+<h3>11. 不定詞①<span class="sub">3用法</span></h3>
+<div class="sig"><span class="en"><b>to + 動詞の原形</b></span> のかたまり。</div>
+<div class="fm">
+<div class="form">① 名詞的用法</div>
+<div class="yaku"><b>〜すること</b></div>
 </div>
-
-<div class="pt" id="t23"><span class="no">23</span>
-  <h3>前置詞<span class="sub">名詞の前で場所・時・関係を示す</span></h3>
-  <h4>時を表す前置詞</h4>
-  <table class="fx fx4 dense4 time-preps">
-    <tr><th>形</th><th>使うとき</th><th>形</th><th>使うとき</th></tr>
-    <tr><td><span class="en"><b>in</b></span> + 季節・年・月</td><td class="n2"><span class="en">in summer / in 2026 / in May</span></td><td><span class="en"><b>at</b></span> + 時刻</td><td class="n2"><span class="en">at seven</span></td></tr>
-    <tr><td><span class="en"><b>on</b></span> + 曜日・日</td><td class="n2"><span class="en">on Monday / on May 5</span></td><td><span class="en"><b>before［after］</b></span> + 時</td><td class="n2">〜の前に［あとに］</td></tr>
-    <tr><td><span class="en"><b>until［till］</b></span> + 時</td><td class="n2">〜までずっと</td><td><span class="en"><b>by</b></span> + 時</td><td class="n2">〜までに（期限）</td></tr>
-    <tr><td><span class="en"><b>for</b></span> + 期間</td><td class="n2">〜の間（<span class="en">for three days</span>）</td><td><span class="en"><b>during</b></span> + 特定の期間</td><td class="n2">〜の間（<span class="en">during summer</span>）</td></tr>
-    <tr><td><span class="en"><b>from</b></span> A <span class="en"><b>to</b></span> B</td><td class="n2">AからBまで</td><td><span class="en"><b>since</b></span> + 起点</td><td class="n2">〜以来・〜からずっと</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I study English at seven.</span>（私は7時に英語を勉強します）</p>
-  <h4>場所を表す前置詞</h4>
-  <table class="fx fx4 prepshort">
-    <tr><th>前置詞</th><th>意味</th><th>前置詞</th><th>意味</th></tr>
-    <tr><td><span class="en">in</span></td><td>〜の中に</td><td><span class="en">under</span></td><td>〜の下に</td></tr>
-    <tr><td><span class="en">on</span></td><td>〜の上に</td><td><span class="en">near</span></td><td>〜の近くに</td></tr>
-    <tr><td><span class="en">at</span></td><td>〜に</td><td><span class="en">by</span></td><td>〜のそばに</td></tr>
-    <tr><td><span class="en">over</span></td><td>〜の上に（はなれて）</td><td><span class="en">between</span></td><td>2つの間に</td></tr>
-    <tr><td><span class="en">into</span></td><td>〜の中へ</td><td><span class="en">among</span></td><td>集団・複数のものの中に</td></tr>
-    <tr><td class="keep-one-line"><span class="en">to</span></td><td>〜へ</td><td><span class="en">along</span></td><td>〜に沿って</td></tr>
-    <tr><td><span class="en">from</span></td><td>〜から</td><td><span class="en">across</span></td><td>〜を横切って</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">She went to school.</span>（彼女は学校へ行きました）</p>
-  <h4>そのほかの前置詞</h4>
-  <table class="fx fx4 prepshort">
-    <tr><th>前置詞</th><th>意味</th><th>前置詞</th><th>意味</th></tr>
-    <tr><td><span class="en">with</span></td><td>〜といっしょに・〜で（道具）</td><td><span class="en">about</span></td><td>〜について</td></tr>
-    <tr><td><span class="en">without</span></td><td>〜なしで</td><td><span class="en">for</span></td><td>〜のために</td></tr>
-    <tr><td><span class="en">by</span></td><td>〜によって・〜で（手段）</td><td><span class="en">like</span></td><td>〜のような</td></tr>
-  </table>
-  <h4>動詞＋前置詞の重要語法</h4>
-  <table class="fx fx4 dense4">
-    <thead><tr><th>形</th><th>意味・使い分け</th><th>形</th><th>意味・使い分け</th></tr></thead>
-    <tbody>
-    <tr><td><span class="en"><b>agree with</b></span> + 人・意見</td><td>人・意見に賛成する</td><td><span class="en"><b>agree to</b></span> + 提案・条件</td><td>提案・条件を受け入れる</td></tr>
-    <tr><td><span class="en"><b>arrive at</b></span> + 狭い場所</td><td>駅・学校などに着く</td><td><span class="en"><b>arrive in</b></span> + 広い場所</td><td>都市・国などに着く</td></tr>
-    <tr><td><span class="en"><b>ask for</b></span> + もの</td><td>〜を求める</td><td><span class="en"><b>belong to</b></span> + 人・集団</td><td>〜に属する</td></tr>
-    <tr><td><span class="en"><b>depend on</b></span> + 人・もの</td><td>〜に頼る・〜次第だ</td><td><span class="en"><b>hear from</b></span> + 人</td><td>〜から便りをもらう</td></tr>
-    <tr><td><span class="en"><b>listen to</b></span> + 音・人</td><td>〜を聞く</td><td><span class="en"><b>look at</b></span> + もの</td><td>〜を見る</td></tr>
-    <tr><td><span class="en"><b>look for</b></span> + もの</td><td>〜を探す</td><td><span class="en"><b>take care of</b></span> + 人・もの</td><td>〜の世話をする</td></tr>
-    <tr><td><span class="en"><b>talk to［with］</b></span> + 人</td><td>〜と話す</td><td><span class="en"><b>wait for</b></span> + 人・もの</td><td>〜を待つ</td></tr>
-    </tbody>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I agree with you.</span>（私はあなたに賛成です）</p>
-  <h4>前置詞を使った熟語</h4>
-  <table class="fx fx4 dense4">
-    <tr><th>熟語</th><th>意味</th><th>熟語</th><th>意味</th></tr>
-    <tr><td><span class="en"><b>How about</b> 〜?</span></td><td>〜はどうですか</td><td><span class="en"><b>by the way</b></span></td><td>ところで</td></tr>
-    <tr><td><span class="en"><b>after all</b></span></td><td>結局</td><td><span class="en"><b>for example</b></span></td><td>たとえば</td></tr>
-    <tr><td class="keep-one-line"><span class="en"><b>one after another</b></span></td><td>次々と</td><td><span class="en"><b>for the first time</b></span></td><td>初めて</td></tr>
-    <tr><td><span class="en"><b>at first</b></span></td><td>最初は</td><td><span class="en"><b>Thank you for</b> 〜.</span></td><td>〜をありがとう</td></tr>
-    <tr><td><span class="en"><b>at last</b></span></td><td>とうとう</td><td><span class="en"><b>in front of</b> 〜</span></td><td>〜の前に</td></tr>
-    <tr><td><span class="en"><b>not 〜 at all</b></span></td><td>まったく〜ない</td><td><span class="en"><b>in the future</b></span></td><td>将来（に）</td></tr>
-    <tr><td><span class="en"><b>a kind of</b> 〜</span></td><td>1種の〜</td><td><span class="en"><b>because of</b> 〜</span></td><td>〜のため</td></tr>
-  </table>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">Students came in one after another.</span>（生徒たちが次々と入ってきました）</p>
+<p>名詞と同様に、<b>動詞の目的語・文の主語・補語</b>になる。</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I want to play soccer.</span>（私はサッカーをしたい）</p>
+<div class="fm">
+<div class="form">② 形容詞的用法　<b>名詞 + to + 動詞の原形</b></div>
+<div class="yaku"><b>〜する（ための）／〜すべき</b></div>
 </div>
-
-<div class="pt" id="t24"><span class="no">24</span>
-  <h3>仮定法過去<span class="sub">現実と違う「もしも」を表す</span></h3>
-  <div class="sig"><b>If + 過去形</b> や <b>I wish + 過去形</b> で、現在の事実に反することや、実現しそうにないことを表します。</div>
-  <p><b>未来の条件を表す if節は現在形</b>にします（第16項）。一方、<b>今の事実と違うこと・実現の可能性が低いこと</b>を仮定するときは過去形を使います。形は過去形でも、過去の出来事とは限りません。</p>
-  <div class="fm">
-    <div class="form"><span class="en"><b>If</b></span> + 主語 + <b>過去形</b> 〜, 主語 + <b>would［could］</b> + 動詞の原形 ….</div>
-    <div class="yaku">もし〜なら…だろう／…できるのに</div>
-  </div>
-  <table class="fx fx2">
-    <tr><th>例文</th><th>意味</th></tr>
-    <tr><td><span class="en">If I <b>were</b> you, I would study harder.</span></td><td class="n2">もし私があなたなら、もっと一生懸命勉強するのに</td></tr>
-    <tr><td><span class="en">If you had a million yen, what would you buy?</span></td><td class="n2">もし100万円持っていたら、何を買いますか</td></tr>
-  </table>
-  <p><span class="en">If</span> の中の <span class="en">be動詞</span> は、主語が <span class="en">I</span> や3人称単数でも<b>were</b>を使う（くだけた文では <span class="en">was</span> も使われる）。</p>
-  <div class="fm">
-    <div class="form"><span class="en"><b>I wish</b></span> + 主語 + <b>過去形</b> 〜.</div>
-    <div class="yaku">〜だったらいいのに（実際はそうではない）</div>
-  </div>
-  <p class="mini-ex"><span class="tag">例</span><span class="en">I wish I <b>knew</b> the answer.</span>（答えを知っていたらいいのに）</p>
-  <p class="ng"><span class="en">If I am you, I will help you.</span> → <span class="en">If I were you, I would help you.</span>（現実とちがう仮定では過去形と<span class="en">would</span>を使う）</p>
+<p>形容詞と同じ働きをし、<b>名詞や代名詞をうしろから修飾</b>する。</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I have homework to do.</span>（私にはするべき宿題があります）</p>
+<div class="fm">
+<div class="form">③ 副詞的用法</div>
+<div class="yaku"><b>〜するために</b>（動作の目的）／<b>〜して</b>（感情の原因・理由）</div>
 </div>
-
-
+<p>副詞と同じ働きをする。</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I went to the park to play soccer.</span>（サッカーをするために公園へ行きました）</p>
+<h4>不定詞といっしょに使う語</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>want to</b></span> + 動詞の原形</td><td>〜したい</td></tr>
+<tr><td><span class="en"><b>hope to</b></span> + 動詞の原形</td><td>〜したいと思う</td></tr>
+<tr><td><span class="en"><b>decide to</b></span> + 動詞の原形</td><td>〜することに決める</td></tr>
+<tr><td><span class="en"><b>need to</b></span> + 動詞の原形</td><td>〜する必要がある</td></tr>
+<tr><td><span class="en"><b>try to</b></span> + 動詞の原形</td><td>〜しようとする</td></tr>
+<tr><td><span class="en"><b>begin［start］to</b></span> + 動詞の原形</td><td>〜し始める</td></tr>
+<tr><td><span class="en">something［anything］<b>to</b></span> + 動詞の原形</td><td>何か〜するもの　※形容詞は <span class="en">something</span> のうしろ</td></tr>
+<tr><td><span class="en">be <b>glad［happy］to</b></span> + 動詞の原形</td><td>〜してうれしい</td></tr>
+<tr><td><span class="en">be <b>sad［sorry］to</b></span> + 動詞の原形</td><td>〜して悲しい［残念だ］</td></tr>
+<tr><td><span class="en">be <b>surprised to</b></span> + 動詞の原形</td><td>〜して驚く</td></tr>
+</table>
+</div>
+<div class="pt" id="t12">
+<h3>12. 不定詞②<span class="sub">重要な形</span></h3>
+<h4>疑問詞 + to + 動詞の原形</h4>
+<table class="fx fx2">
+<thead><tr><th>形</th><th>意味</th></tr></thead>
+<tbody>
+<tr><td><span class="en"><b>how to</b></span> + 動詞の原形</td><td>〜のしかた、どう〜するか</td></tr>
+<tr><td><span class="en"><b>what to</b></span> + 動詞の原形</td><td>何を〜したらよいか</td></tr>
+<tr><td><span class="en"><b>where to</b></span> + 動詞の原形</td><td>どこで［へ／に］〜したらよいか</td></tr>
+<tr><td><span class="en"><b>when to</b></span> + 動詞の原形</td><td>いつ〜したらよいか</td></tr>
+<tr><td><span class="en"><b>which（+ 名詞）to</b></span> + 動詞の原形</td><td>どれを［どの…を］〜したらよいか</td></tr>
+</tbody>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I know how to use this computer.</span>（私はこのコンピューターの使い方を知っています）</p>
+<h4>動詞 + 人 + to + 動詞の原形</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>tell</b></span> + 人 + <span class="en">to</span> + 動詞の原形</td><td>（人）に〜するように言う</td></tr>
+<tr><td><span class="en"><b>ask</b></span> + 人 + <span class="en">to</span> + 動詞の原形</td><td>（人）に〜するように頼む</td></tr>
+<tr><td><span class="en"><b>want</b></span> + 人 + <span class="en">to</span> + 動詞の原形</td><td>（人）に〜してもらいたい</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">My mother told me to clean my room.</span>（母は私に部屋を掃除するように言いました）</p>
+<div>
+<h4><span class="en">make / let</span> + 人 + 動詞の原形<span style="font-weight:400;font-size:11px">　／　</span><span class="en">help</span> + 人 +（<span class="en">to</span>）動詞の原形</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>make</b></span> + 人 + 動詞の原形</td><td>（人）に〜させる（強制）</td></tr>
+<tr><td><span class="en"><b>let</b></span> + 人 + 動詞の原形</td><td>（人）に〜させる（許可）</td></tr>
+<tr><td><span class="en"><b>help</b></span> + 人 +（<span class="en">to</span>）動詞の原形</td><td>（人）が〜するのを手伝う</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">My mother made me clean my room.</span>（母は私に部屋を掃除させました）</p>
+<p><span class="en">make / let</span> のうしろは<b>必ず原形</b>（<span class="en">to</span> なし）。<span class="en">help</span> だけは <span class="en">to</span> をつけてもつけなくてもよい。</p>
+</div>
+<p class="ng"><span class="en">My mother made me to clean my room.</span> → <span class="en">My mother made me clean my room.</span>（<span class="en">make</span> のうしろに <span class="en">to</span> はつかない）</p>
+<h4>It is 〜 for … to の文</h4>
+<div class="fm">
+<div class="form"><b>It is</b> + 形容詞 + <b>for</b> + 人 + <b>to</b> + 動詞の原形.</div>
+<div class="yaku">（人）<b>にとって</b>〜<b>するのは</b>…<b>です</b></div>
+</div>
+<p class="mini-ex"><span class="tag">例</span><span class="en">It is important for us to study English.</span>（私たちにとって英語を勉強することは大切です）</p>
+<p>よく使う形容詞：<span class="en">easy / difficult / important / necessary</span></p>
+</div>
+<div class="pt" id="t13">
+<h3>13. 動名詞</h3>
+<div class="sig"><span class="en"><b>動詞のing形</b></span> が<b>名詞の働き</b>をしている。形は進行形のing形と同じ。</div>
+<div class="fm">
+<div class="form"><b>動詞のing形</b></div>
+<div class="yaku"><b>〜すること</b></div>
+</div>
+<p>文の中で<b>主語・動詞の目的語・補語・前置詞の目的語</b>になる。</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I enjoy playing soccer.</span>（私はサッカーをすることを楽しみます）</p>
+<h4 id="objform">不定詞（名詞的用法）との使い分け</h4>
+<p>どちらも「〜すること」を表すが、<b>目的語になる場合は前の動詞ごとに形が決まる。</b>まずは次の代表例を覚える。</p>
+<table class="compact verb-choice">
+<thead><tr><th>とれる形</th><th>動詞・表現</th><th>基本の意味</th></tr></thead>
+<tbody>
+<tr><td class="plain"><span class="en"><b>to do</b></span></td><td class="plain"><span class="en"><b>want / hope / decide / need / plan / learn</b></span></td><td class="plain">うしろに to + 動詞の原形を置く</td></tr>
+<tr><td class="plain"><span class="en"><b>doing</b></span></td><td class="plain"><span class="en"><b>enjoy / finish / keep / practice / stop</b></span></td><td class="plain">うしろに動詞のing形を置く</td></tr>
+<tr><td class="plain"><b>両方<br/>意味はほぼ同じ</b></td><td class="plain"><span class="en"><b>like / love / begin / start</b></span></td><td class="plain">「〜すること」の意味では両方使える</td></tr>
+</tbody>
+</table>
+<h4>覚えておきたい形</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>stop</b></span> + 動詞のing形</td><td>〜するのをやめる</td></tr>
+<tr><td><span class="en"><b>forget to</b></span> + 動詞の原形</td><td>〜するのを忘れる</td></tr>
+<tr><td><span class="en"><b>remember to</b></span> + 動詞の原形</td><td>忘れずに〜する</td></tr></table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I stopped playing soccer.</span>（サッカーをするのをやめました）</p>
+<h4>前置詞のうしろに動詞を置くなら動名詞（<span class="en">to</span> 不定詞は使えない）</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>Thank you for</b> 〜ing.</span></td><td>〜してくれてありがとう</td></tr>
+<tr><td><span class="en">be <b>good at</b> 〜ing</span></td><td>〜するのが得意だ</td></tr>
+<tr><td><span class="en">be <b>interested in</b> 〜ing</span></td><td>〜することに興味がある</td></tr>
+<tr><td><span class="en"><b>How about</b> 〜ing?</span></td><td>〜するのはどうですか</td></tr>
+<tr><td><span class="en"><b>without</b> 〜ing</span></td><td>〜せずに</td></tr>
+<tr><td><span class="en"><b>before［after］</b> 〜ing</span></td><td>〜する前に［したあとに］</td></tr>
+<tr><td><span class="en"><b>look forward to</b> 〜ing</span></td><td>〜するのを楽しみに待つ</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">Thank you for helping me.</span>（手伝ってくれてありがとう）</p>
+</div>
+<div class="pt" id="t14">
+<h3>14. 比較①<span class="sub">原級・比較級・最上級</span></h3>
+<div class="sig"><span class="en"><b>as 〜 as</b></span> なら原級、<span class="en"><b>than</b></span> があれば比較級、<span class="en"><b>the -est / the most</b></span> なら最上級。</div>
+<div class="fm">
+<div class="form"><b>as</b> + 原級 + <b>as</b> + 〜</div>
+<div class="yaku">…と<b>同じくらい</b>〜</div>
+</div>
+<div class="fm">
+<div class="form"><b>比較級</b> + <b>than</b> + 〜</div>
+<div class="yaku">…<b>よりも</b>〜</div>
+</div>
+<div class="fm">
+<div class="form"><b>the</b> + <b>最上級</b> + <b>in［of］</b> + 〜</div>
+<div class="yaku">…<b>の中で一番</b>〜</div>
+</div>
+<p class="mini-ex"><span class="tag">例</span><span class="en">Ken is as tall as Tom. / Ken is taller than Tom. / Ken is the tallest in his class.</span></p>
+<p>範囲が<b>場所・集団</b>なら <span class="en">in</span>、<b>数や構成員</b>を示す語句なら <span class="en">of</span>。</p>
+<h4>比較級・最上級の形</h4>
+<table class="fx fx2 comparison-forms"><thead><tr><th>条件</th><th>形</th></tr></thead>
+<tr><td class="n2">ふつうの語</td><td class="n2">語尾に <b>er, est</b>（<span class="en">old – older – oldest</span>）</td></tr>
+<tr><td class="n2">つづりの長い語</td><td class="n2">前に <b>more, most</b>（<span class="en">beautiful – more beautiful – most beautiful</span>）</td></tr>
+<tr><td class="n2">不規則変化</td><td class="n2"><span class="en">good / well – <b>better</b> – <b>best</b></span><br/><span class="en">bad – <b>worse</b> – <b>worst</b></span><br/><span class="en">many / much – <b>more</b> – <b>most</b></span><br/><span class="en">little（量）– <b>less</b> – <b>least</b></span></td></tr>
+</table>
+<p class="ng"><span class="en">Ken is more taller than Tom.</span> → <span class="en">Ken is taller than Tom.</span> / <span class="en">This book is gooder than that one.</span> → <span class="en">This book is better than that one.</span></p>
+</div>
+<div class="pt" id="t15">
+<h3>15. 比較②<span class="sub">重要な形</span></h3>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en">like A <b>better than</b> B</span></td><td>BよりもAのほうが好きだ</td></tr>
+<tr><td><span class="en">like A <b>(the) best in［of］</b></span> + 〜</td><td>…の中でAが一番好きだ</td></tr>
+<tr><td><span class="en"><b>Which［Who］</b></span> + 比較級 + 〜<span class="en">, A <b>or</b> B?</span></td><td>AとBではどちらのほうが〜ですか</td></tr>
+<tr><td><span class="en"><b>What［Who / Which］</b></span> + 最上級 + 〜 + <span class="en">in［of］</span> + …?</td><td>…の中で何［だれ／どれ］が一番〜ですか</td></tr>
+<tr><td><span class="en"><b>one of the</b></span> + 最上級 + <b>複数名詞</b> + 〜</td><td>最も〜の中の1つ</td></tr>
+<tr><td><span class="en"><b>not as</b></span> + 原級 + <span class="en"><b>as</b></span> + 〜</td><td>…ほど〜ではない</td></tr>
+<tr><td><span class="en"><b>as</b></span> + 原級 + <span class="en"><b>as possible</b></span></td><td>できるだけ〜</td></tr>
+</table>
+<p><b>書きかえ</b>：<span class="en">A is <b>not as</b> tall <b>as</b> B.</span> ＝ <span class="en">B is <b>taller than</b> A.</span>（主語が入れかわる）</p>
+</div>
+<div class="pt" id="t16">
+<h3>16. 接続詞</h3>
+<h4>対等につなぐ</h4>
+<table class="fx fx4"><thead><tr><th>語</th><th>意味</th><th>語</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>and</b></span></td><td>〜と…</td><td><span class="en"><b>but</b></span></td><td>〜しかし…</td></tr>
+<tr><td><span class="en"><b>or</b></span></td><td>〜かまたは…</td><td><span class="en"><b>so</b></span></td><td>〜それで…</td></tr>
+</table>
+<h4>文をつなぐ（うしろは 主語＋動詞）</h4>
+<table class="fx fx2"><thead><tr><th>語</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>when</b></span> + 主語 + 動詞</td><td>〜（する［した］）とき</td></tr>
+<tr><td><span class="en"><b>because</b></span> + 主語 + 動詞</td><td>〜なので</td></tr>
+<tr><td><span class="en"><b>if</b></span> + 主語 + 動詞</td><td>もし〜ならば</td></tr>
+<tr><td><span class="en"><b>before</b></span> + 主語 + 動詞</td><td>〜する前に</td></tr>
+<tr><td><span class="en"><b>after</b></span> + 主語 + 動詞</td><td>〜したあとに</td></tr>
+<tr><td><span class="en"><b>while</b></span> + 主語 + 動詞</td><td>〜する間に</td></tr>
+<tr><td><span class="en"><b>until</b></span> + 主語 + 動詞</td><td>〜するまで</td></tr>
+<tr><td><span class="en"><b>though［although］</b></span> + 主語 + 動詞</td><td>〜だけれども</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I stayed home because it was raining.</span>（雨が降っていたので家にいました）</p>
+<p><b>時・条件を表す接続詞（<span class="en">when / if / before / after / until / as soon as</span> など）の中は、未来のことでも現在形で書く。</b></p>
+<h4>that</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td>動詞 + <span class="en"><b>(that)</b></span> + 主語 + 動詞</td><td>〜ということ<br/><span class="en">know / think / hope / feel / say / understand</span></td></tr>
+<tr><td><span class="en"><b>be glad［happy / sure / sorry］(that)</b></span> + 主語 + 動詞</td><td>〜でうれしい［〜だと確信している／〜で残念だ］</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I think that English is important.</span>（私は英語が大切だと思います）</p>
+<p>接続詞の <span class="en">that</span> は<b>省略できる</b>。</p>
+<h4>そのほかの重要な形</h4>
+<table class="fx fx2">
+<thead><tr><th>形</th><th>意味</th></tr></thead>
+<tbody>
+<tr><td><span class="en"><b>both</b> A <b>and</b> B</span></td><td>AとBの両方とも</td></tr>
+<tr><td><span class="en"><b>so</b></span> + 形容詞・副詞 + <span class="en"><b>that</b></span> + 主語 + 動詞</td><td>とても…なので〜</td></tr>
+<tr><td><span class="en"><b>as soon as</b></span> + 主語 + 動詞</td><td>〜するとすぐに</td></tr>
+<tr><td><span class="en"><b>so</b></span> + 形容詞 + <span class="en"><b>that</b></span> + 主語 + <span class="en"><b>can't</b></span></td><td>とても…なので〜できない</td></tr>
+<tr><td><span class="en"><b>too</b></span> + 形容詞 + <span class="en"><b>to</b></span> + 動詞の原形</td><td>…すぎて〜できない</td></tr>
+<tr><td>形容詞 + <span class="en"><b>enough to</b></span> + 動詞の原形</td><td>〜するのに十分…</td></tr>
+</tbody>
+</table>
+<p><b>書きかえ</b>：<span class="en"><b>too</b> 〜 <b>to</b> …</span> ＝ <span class="en"><b>so</b> 〜 <b>that</b> + 主語 + <b>can't</b> …</span></p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">Ken is so tired that he can't walk. ＝ Ken is too tired to walk.</span></p>
+</div>
+<div class="pt" id="t17">
+<h3>17. 分詞</h3>
+<div class="sig"><b>現在分詞</b>＝進行形で使う動詞のing形と同じ。<b>過去分詞</b>＝規則動詞は過去形と同じ形、不規則動詞は固有の形。</div>
+<h4>現在分詞（〜している…）</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>使うとき</th></tr></thead>
+<tr><td><b>名詞 + 現在分詞 + 語句</b></td><td>他の語句といっしょに用いるとき → <b>前の名詞</b>を修飾</td></tr>
+<tr><td><b>現在分詞 + 名詞</b></td><td>単独で用いるとき → <b>うしろの名詞</b>を修飾</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">The boy playing soccer is Ken.</span>（サッカーをしている少年はケンです）</p>
+<h4>過去分詞（〜される［された］…）</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>使うとき</th></tr></thead>
+<tr><td><b>名詞 + 過去分詞 + 語句</b></td><td>他の語句といっしょに用いるとき → <b>前の名詞</b>を修飾</td></tr>
+<tr><td><b>過去分詞 + 名詞</b></td><td>単独で用いるとき → <b>うしろの名詞</b>を修飾</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">This is a picture taken by my father.</span>（これは父が撮った写真です）</p>
+<p><b>2語以上なら名詞のうしろ、1語だけなら名詞の前。</b>これが現在分詞・過去分詞に共通のルール。</p>
+</div>
+<div class="pt" id="t18">
+<h3>18. 現在完了①<span class="sub">継続</span></h3>
+<div class="sig"><span class="en"><b>have［has］+ 過去分詞</b></span> の形。よく使う目印：<span class="en"><b>for / since</b></span> があれば<b>継続</b>。</div>
+<div class="fm">
+<div class="form"><b>have［has］</b> + <b>過去分詞</b></div>
+<div class="yaku"><b>ずっと〜している［〜してきた］</b></div>
+</div>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I have lived here for three years.</span>（私は3年間ここに住んでいます）</p>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>for</b></span> + 期間を表す語句</td><td>〜の間</td></tr>
+<tr><td><span class="en"><b>since</b></span> + 起点を表す語句</td><td>〜以来、〜から（今まで）</td></tr>
+</table>
+<h4>否定文・疑問文</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td>主語 + <span class="en"><b>have［has］not</b></span> + 過去分詞 + 〜.</td><td>ずっと〜していません</td></tr>
+<tr><td><span class="en"><b>Have［Has］</b></span> + 主語 + 過去分詞 + 〜?</td><td>ずっと〜していますか</td></tr>
+<tr><td><span class="en"><b>How long have［has］</b></span> + 主語 + 過去分詞 + 〜?</td><td>どのくらい〜していますか</td></tr>
+</table>
+<p class="ng"><span class="en">I have played soccer yesterday.</span> → <span class="en">I played soccer yesterday.</span>（過去の一点を表す語といっしょなら過去形）</p>
+<h4>動作がずっと続いているとき</h4>
+<div class="fm">
+<div class="form"><b>have［has］been</b> + <b>動詞のing形</b></div>
+<div class="yaku"><b>ずっと〜し続けている</b></div>
+</div>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I have been studying English for two hours.</span>（私は2時間ずっと英語を勉強しています）</p>
+<p><span class="en">know / be / like</span> など<b>状態</b>を表す動詞は基本的に <span class="en">have + 過去分詞</span>。<span class="en">study / run / rain / live</span> など<b>動作が続く</b>ことを表す動詞は <span class="en">have + 過去分詞</span> でもよいが、<b>続けていることを強調する</b>ときは <span class="en">have been + ing形</span>。</p>
+</div>
+<div class="pt" id="t19">
+<h3>19. 現在完了②<span class="sub">経験・完了</span></h3>
+<div class="sig">よく使う目印：<span class="en"><b>ever / never / before / once</b></span> なら<b>経験</b>、<span class="en"><b>just / already / yet</b></span> なら<b>完了</b>。</div>
+<h4>経験</h4>
+<div class="fm">
+<div class="form"><b>have［has］</b> + <b>過去分詞</b></div>
+<div class="yaku">（今までに）<b>〜したことがある</b></div>
+</div>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I have visited Kyoto twice.</span>（私は京都を2度訪れたことがあります）</p>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td>主語 + <span class="en"><b>have［has］never</b></span> + 過去分詞 + 〜.</td><td>1度も〜したことがありません</td></tr>
+<tr><td><span class="en"><b>Have［Has］</b></span> + 主語 + <span class="en">(<b>ever</b>)</span> + 過去分詞 + 〜?</td><td>（今までに）〜したことがありますか</td></tr>
+</table>
+<table class="fx fx4"><thead><tr><th>いっしょに使う語</th><th>意味</th><th>語</th><th>意味</th></tr></thead>
+<tr><td><span class="en">before</span></td><td>以前に</td><td><span class="en">... times</span></td><td>…度、…回</td></tr>
+<tr><td><span class="en">once</span></td><td>1度、1回</td><td><span class="en">ever</span></td><td>今までに</td></tr>
+<tr><td><span class="en">twice</span></td><td>2度、2回</td><td><span class="en">never</span></td><td>1度も〜ない</td></tr>
+</table>
+<h4>完了</h4>
+<div class="fm">
+<div class="form"><b>have［has］</b> + <b>過去分詞</b></div>
+<div class="yaku"><b>〜したところだ／〜してしまった</b></div>
+</div>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I have just finished my homework.</span>（私はちょうど宿題を終えたところです）</p>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td>主語 + <span class="en"><b>have［has］not</b></span> + 過去分詞 + 〜<span class="en">(<b>yet</b>)</span>.</td><td>まだ〜していません</td></tr>
+<tr><td><span class="en"><b>Have［Has］</b></span> + 主語 + 過去分詞 + 〜<span class="en">(<b>yet</b>)</span>?</td><td>もう〜してしまいましたか</td></tr>
+<tr><td>主語 + <span class="en"><b>have［has］just</b></span> + 過去分詞 + 〜.</td><td>ちょうど〜したところです</td></tr>
+<tr><td>主語 + <span class="en"><b>have［has］already</b></span> + 過去分詞 + 〜.</td><td>もう〜してしまいました</td></tr>
+</table>
+<h4>いっしょに使う語の位置</h4>
+<table class="fx fx2"><thead><tr><th>語</th><th>置く場所</th></tr></thead>
+<tr><td><span class="en">ever / never / just / already</span></td><td class="n2"><span class="en">have［has］</span>と<b>過去分詞の間</b></td></tr>
+<tr><td><span class="en">before / once / twice / 〜 times / yet</span></td><td class="n2"><b>文の最後</b></td></tr>
+</table>
+<h4>まちがえやすい2つ</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en">have <b>been to</b></span> + 場所</td><td>〜へ行ったことがある（今はここにいる）</td></tr>
+<tr><td><span class="en">have <b>gone to</b></span> + 場所</td><td>〜へ行ってしまった（今はここにいない）</td></tr>
+</table>
+</div>
+<div class="pt" id="t20">
+<h3>20. 受動態</h3>
+<div class="sig"><span class="en"><b>be動詞 + 過去分詞</b></span> の形。<span class="en">by 〜</span> があればほぼ確定。</div>
+<div class="fm">
+<div class="form"><b>be動詞</b> + <b>過去分詞</b>（+ <b>by</b> + 行為者）</div>
+<div class="yaku">（…によって）<b>〜される、〜された</b></div>
+</div>
+<p class="mini-ex"><span class="tag">例</span><span class="en">English is spoken in many countries.</span>（英語は多くの国で話されています）</p>
+<p>be動詞は主語と時制で使い分ける ── <span class="en">is, am, are</span>（現在）／<span class="en">was, were</span>（過去）。</p>
+<h4>時制・助動詞による形</h4>
+<table class="fx fx4 passive-tense"><thead><tr><th>形</th><th>時</th><th>形</th><th>時・意味</th></tr></thead>
+<tr><td><span class="en"><b>am［is / are］</b> + 過去分詞</span></td><td>現在</td><td><span class="en"><b>was［were］</b> + 過去分詞</span></td><td>過去</td></tr>
+<tr><td><span class="en"><b>will be</b> + 過去分詞</span></td><td>未来</td><td><span class="en"><b>can［must］be</b> + 過去分詞</span></td><td>〜され得る［されなければならない］</td></tr>
+</table>
+<h4>否定文・疑問文</h4>
+<table class="fx"><thead><tr><th>形</th></tr></thead>
+<tr><td>主語 + <b>be動詞 + not</b> + 過去分詞 +（<span class="en">by</span> + 行為者）.</td></tr>
+<tr><td><b>Be動詞</b> + 主語 + 過去分詞 +（<span class="en">by</span> + 行為者）?</td></tr>
+</table>
+<h4>「〜される」と訳さない受動態</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en">be <b>made of</b></span> + 材料</td><td>〜でできている</td></tr>
+<tr><td><span class="en">be <b>made from</b></span> + 原料</td><td>〜でできている</td></tr>
+<tr><td><span class="en">be <b>interested in</b></span></td><td>〜に興味がある</td></tr>
+<tr><td><span class="en">be <b>surprised at</b></span></td><td>〜に驚く</td></tr>
+<tr><td><span class="en">be <b>covered with</b></span></td><td>〜でおおわれている</td></tr>
+<tr><td><span class="en">be <b>known to</b></span></td><td>〜に知られている</td></tr>
+<tr><td><span class="en">be <b>born</b></span></td><td>生まれる</td></tr>
+</table>
+<p><span class="en">be made <b>of</b></span> は<b>材料が見てわかる</b>とき、<span class="en">be made <b>from</b></span> は<b>原料が変化して見てわからない</b>とき。</p>
+<p class="mini-ex"><span class="tag">例</span><span class="en">This desk is made of wood.</span>（この机は木でできています）</p>
+</div>
+<div class="pt" id="t21">
+<h3>21. 関係代名詞</h3>
+<div class="sig">名詞のうしろが <span class="en"><b>who / which / that</b></span>、または<b>いきなり「主語＋動詞」</b>。</div>
+<h4>主格（うしろが動詞）</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><b>人</b> + <span class="en"><b>who</b></span> + <b>動詞</b> + 〜</td><td>〜する（人）</td></tr>
+<tr><td><b>もの</b> + <span class="en"><b>which</b></span> + <b>動詞</b> + 〜</td><td>〜する（もの）</td></tr>
+<tr><td><b>人［もの］</b> + <span class="en"><b>that</b></span> + <b>動詞</b> + 〜</td><td>〜する（人［もの］）</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I know a boy who speaks English.</span>（私は英語を話す少年を知っています）</p>
+<h4>目的格（うしろが主語＋動詞・省略できる）</h4>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><b>人［もの］</b> + <span class="en"><b>that</b></span> + <b>主語 + 動詞</b> + 〜</td><td>主語が〜する（人［もの］）</td></tr>
+<tr><td><b>もの</b> + <span class="en"><b>which</b></span> + <b>主語 + 動詞</b> + 〜</td><td>主語が〜する（もの）</td></tr>
+<tr><td><b>人［もの］</b> + <b>主語 + 動詞</b> + 〜</td><td>主語が〜する（人［もの］）※<b>接触節</b>（関係代名詞の省略）</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">This is the book I bought yesterday.</span>（これは私が昨日買った本です）</p>
+<p><b>主格は省略できない。目的格は省略できる。</b>見分けは関係代名詞のうしろを見るだけ ── <b>いきなり動詞</b>なら主格、<b>主語＋動詞</b>なら目的格。</p>
+</div>
+<div class="pt" id="t22">
+<h3>22. 付加疑問・間接疑問</h3>
+<h4>付加疑問（〜ですね）</h4>
+<table class="fx fx2 tagq"><thead><tr><th>もとの文</th><th>形</th></tr></thead>
+<tr><td class="n2">肯定文の場合</td><td>肯定文<b>, 否定形</b>のbe動詞・助動詞・<span class="en">do／does／did</span> + <b>主語の代名詞?</b></td></tr>
+<tr><td class="n2">否定文の場合</td><td>否定文<b>, 肯定形</b>のbe動詞・助動詞・<span class="en">do／does／did</span> + <b>主語の代名詞?</b></td></tr>
+<tr><td class="n2">助動詞の文</td><td><span class="en">You can swim, <b>can’t you</b>?</span> のように、助動詞を使う</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">You are busy, aren't you? / You don't play tennis, do you?</span></p>
+<h4>間接疑問（疑問文を文の中に入れる）</h4>
+<p><b>疑問詞のうしろは「主語＋動詞」の語順に戻す。</b></p>
+<table class="fx indq"><thead><tr><th>形</th><th>完成した文</th><th>もとの疑問文</th></tr></thead>
+<tr><td>動詞 + <b>疑問詞 + 主語 + be動詞</b></td><td class="n2"><span class="en">Do you know where Mike is?</span></td><td class="n2"><span class="en">Where is Mike?</span></td></tr>
+<tr><td>動詞 + <b>疑問詞 + 主語 + 一般動詞</b></td><td class="n2"><span class="en">I know what you want.</span></td><td class="n2"><span class="en">What do you want?</span></td></tr>
+<tr><td>動詞 + <b>疑問詞 + 動詞</b><br/>※疑問詞が主語</td><td class="n2"><span class="en">I know who made this cake.</span></td><td class="n2"><span class="en">Who made this cake?</span></td></tr>
+</table>
+</div>
+<div class="pt" id="t23">
+<h3>23. 前置詞</h3>
+<h4>時を表す前置詞</h4>
+<table class="fx fx4 dense4 time-preps"><thead><tr><th>形</th><th>使うとき</th><th>形</th><th>使うとき</th></tr></thead>
+<tr><td><span class="en"><b>in</b></span> + 季節・年・月</td><td class="n2"><span class="en">in summer / in 2026 / in May</span></td><td><span class="en"><b>at</b></span> + 時刻</td><td class="n2"><span class="en">at seven</span></td></tr>
+<tr><td><span class="en"><b>on</b></span> + 曜日・日</td><td class="n2"><span class="en">on Monday / on May 5</span></td><td><span class="en"><b>before［after］</b></span> + 時</td><td class="n2">〜の前に［あとに］</td></tr>
+<tr><td><span class="en"><b>until［till］</b></span> + 時</td><td class="n2">〜までずっと</td><td><span class="en"><b>by</b></span> + 時</td><td class="n2">〜までに（期限）</td></tr>
+<tr><td><span class="en"><b>for</b></span> + 期間</td><td class="n2">〜の間（<span class="en">for three days</span>）</td><td><span class="en"><b>during</b></span> + 特定の期間</td><td class="n2">〜の間（<span class="en">during summer</span>）</td></tr>
+<tr><td><span class="en"><b>from</b></span> A <span class="en"><b>to</b></span> B</td><td class="n2">AからBまで</td><td><span class="en"><b>since</b></span> + 起点</td><td class="n2">〜以来・〜からずっと</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I study English at seven.</span>（私は7時に英語を勉強します）</p>
+<h4>場所を表す前置詞</h4>
+<table class="fx fx4 prepshort"><thead><tr><th>前置詞</th><th>意味</th><th>前置詞</th><th>意味</th></tr></thead>
+<tr><td><span class="en">in</span></td><td>〜の中に</td><td><span class="en">under</span></td><td>〜の下に</td></tr>
+<tr><td><span class="en">on</span></td><td>〜の上に</td><td><span class="en">near</span></td><td>〜の近くに</td></tr>
+<tr><td><span class="en">at</span></td><td>〜に</td><td><span class="en">by</span></td><td>〜のそばに</td></tr>
+<tr><td><span class="en">over</span></td><td>〜の上に（はなれて）</td><td><span class="en">between</span></td><td>（2つ）の間に</td></tr>
+<tr><td><span class="en">into</span></td><td>〜の中へ</td><td><span class="en">among</span></td><td>（3つ以上）の間に</td></tr>
+<tr><td class="keep-one-line"><span class="en">to</span></td><td>〜へ</td><td><span class="en">along</span></td><td>〜に沿って</td></tr>
+<tr><td><span class="en">from</span></td><td>〜から</td><td><span class="en">across</span></td><td>〜を横切って</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">She went to school.</span>（彼女は学校へ行きました）</p>
+<h4>そのほかの前置詞</h4>
+<table class="fx fx4 prepshort"><thead><tr><th>前置詞</th><th>意味</th><th>前置詞</th><th>意味</th></tr></thead>
+<tr><td><span class="en">with</span></td><td>〜といっしょに・〜で（道具）</td><td><span class="en">about</span></td><td>〜について</td></tr>
+<tr><td><span class="en">without</span></td><td>〜なしで</td><td><span class="en">for</span></td><td>〜のために</td></tr>
+<tr><td><span class="en">by</span></td><td>〜によって・〜で（手段）</td><td><span class="en">like</span></td><td>〜のような</td></tr>
+</table>
+<h4>動詞＋前置詞の重要語法</h4>
+<table class="fx fx4 dense4"><thead><tr><th>形</th><th>意味</th><th>形</th><th>意味</th></tr></thead><tr><td><span class="en"><b>agree with + 人・意見</b></span></td><td>人・意見に賛成する</td><td><span class="en"><b>ask for + もの</b></span></td><td>〜を求める</td></tr><tr><td><span class="en"><b>arrive at + 狭い場所</b></span></td><td>駅・学校などに着く</td><td><span class="en"><b>arrive in + 広い場所</b></span></td><td>都市・国などに着く</td></tr><tr><td><span class="en"><b>belong to + 人・集団</b></span></td><td>〜に属する</td><td><span class="en"><b>hear from + 人</b></span></td><td>〜から便りをもらう</td></tr><tr><td><span class="en"><b>listen to + 音・人</b></span></td><td>〜を聞く</td><td><span class="en"><b>look at + もの</b></span></td><td>〜を見る</td></tr><tr><td><span class="en"><b>look for + もの</b></span></td><td>〜を探す</td><td><span class="en"><b>take care of + 人・もの</b></span></td><td>〜の世話をする</td></tr><tr><td><span class="en"><b>talk to［with］ + 人</b></span></td><td>〜と話す</td><td><span class="en"><b>wait for + 人・もの</b></span></td><td>〜を待つ</td></tr></table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">I agree with you.</span>（私はあなたに賛成です）</p>
+<h4>前置詞を使った熟語</h4>
+<table class="fx fx4 dense4"><thead><tr><th>熟語</th><th>意味</th><th>熟語</th><th>意味</th></tr></thead>
+<tr><td><span class="en"><b>How about</b> 〜?</span></td><td>〜はどうですか</td><td><span class="en"><b>by the way</b></span></td><td>ところで</td></tr>
+<tr><td><span class="en"><b>after all</b></span></td><td>結局</td><td><span class="en"><b>for example</b></span></td><td>たとえば</td></tr>
+<tr><td class="keep-one-line"><span class="en"><b>one after another</b></span></td><td>次々と</td><td><span class="en"><b>for the first time</b></span></td><td>初めて</td></tr>
+<tr><td><span class="en"><b>at first</b></span></td><td>最初は</td><td><span class="en"><b>Thank you for</b> 〜.</span></td><td>〜をありがとう</td></tr>
+<tr><td><span class="en"><b>at last</b></span></td><td>とうとう</td><td><span class="en"><b>in front of</b> 〜</span></td><td>〜の前に</td></tr>
+<tr><td><span class="en"><b>not 〜 at all</b></span></td><td>まったく〜ない</td><td><span class="en"><b>in the future</b></span></td><td>将来（に）</td></tr>
+<tr><td><span class="en"><b>a kind of</b> 〜</span></td><td>1種の〜</td><td><span class="en"><b>because of</b> 〜</span></td><td>〜のため</td></tr>
+</table>
+<p class="mini-ex"><span class="tag">例</span><span class="en">Students came in one after another.</span>（生徒たちが次々と入ってきました）</p>
+</div>
+<div class="pt" id="t24">
+<h3>24. 仮定法</h3>
+<div class="sig">現実とちがうことを言う形。<span class="en">If</span> の中の動詞は<b>過去形</b>。</div>
+<p><b>ふつうの条件（〜ならば）を表す <span class="en">if</span> は現在形のまま</b>（第16章）。<b>現実とちがうことを仮定する</b>ときだけ、<span class="en">if</span> の中を過去形にする。</p>
+<div class="fm">
+<div class="form"><span class="en"><b>If</b></span> + 主語 + <b>過去形</b> 〜, 主語 + <b>would［could］</b> + 動詞の原形 ….</div>
+<div class="yaku">もし〜なら…なのに（実際はそうではない）</div>
+</div>
+<table class="fx fx2"><thead><tr><th>形</th><th>意味</th></tr></thead>
+<tr><td><span class="en">If I <b>were</b> you, I would study harder.</span></td><td class="n2">もし私があなたなら、もっと一生懸命勉強するのに</td></tr>
+<tr><td><span class="en">If you had a million yen, what would you buy?</span></td><td class="n2">もし100万円持っていたら、何を買いますか</td></tr>
+</table>
+<p><span class="en">If</span> の中の <span class="en">be動詞</span> は、基本形として主語にかかわらず <span class="en"><b>were</b></span> を覚える。</p>
+<div class="fm">
+<div class="form"><span class="en"><b>I wish</b></span> + 主語 + <b>過去形</b> 〜.</div>
+<div class="yaku">〜だったらいいのに（実際はそうではない）</div>
+</div>
+<div class="ex"><span class="en">I wish I <b>knew</b> the answer.</span>（答えを知っていたらいいのに）</div>
+<p class="ng"><span class="en">If I am you, I will help you.</span> → <span class="en">If I were you, I would help you.</span>（現実とちがう仮定では過去形と<span class="en">would</span>を使う）</p>
+</div>
 <div class="colophon">英文法・完全攻略バイブル　｜　JUKEN CAMP</div>
-
 </div>
 </body>
 </html>
